@@ -1,0 +1,32 @@
+
+.orbit .item{
+    background-color: #000;
+}
+
+.orbit .item img{
+    width: 100%;
+
+    opacity: .2;
+}
+
+.orbit .item .container{
+    position: relative;
+
+    padding:0;
+
+    /*height: 100%;*/
+
+}
+
+.carousel-caption{
+    left: 0;
+    bottom: 30px;
+
+    text-align: left;
+}
+
+.carousel-indicators{
+
+    text-align: left;
+    /*left: 0;*/
+}

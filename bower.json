@@ -1,0 +1,30 @@
+{
+  "name": "zsxxww_new",
+  "homepage": "https://github.com/eva990417744/zsxxww_new",
+  "authors": [
+    "XX",
+    "Sumeragibi"
+  ],
+  "description": "the official website of ZSC Network Support Department",
+  "main": "index.html",
+  "keywords": [
+    "official",
+    "website",
+    "ZSC",
+    "ZSCNSD"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "html5shiv": "^3.7.3",
+    "respond": "^1.4.2"
+  }
+}
