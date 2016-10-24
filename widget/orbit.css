@@ -13,20 +13,58 @@
     position: relative;
 
     padding:0;
-
-    /*height: 100%;*/
-
 }
 
 .carousel-caption{
     left: 0;
-    bottom: 30px;
+    bottom: 20px;
 
     text-align: left;
 }
 
+/*    按钮样式  */
+.carousel-caption .watch{
+    padding:8px 35px;
+
+    color: #fff;
+
+    background-color: #1bbc9d;
+
+    border: none;
+}
+.carousel-caption .watch:hover{
+    background-color: #1BBC8B;
+}
+.carousel-caption .watch:focus{
+    outline:0
+}
+
+/*    文字及加入我们的样式   */
+.carousel-caption p{
+    width: 50%;
+}
+.join{
+    margin-left: 13px;
+
+    color: #fff;
+}
+.join:hover{
+    color: #1bbc9d;
+    text-decoration: none;
+}
+.join:focus{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*     indicators的样式    */
 .carousel-indicators{
+    /*left:0;*/
+    bottom:0;
+    /*top: 50px;*/
 
-    text-align: left;
-    /*left: 0;*/
+    /*padding: 0;*/
+
+    /*text-align: left;*/
 }
+
