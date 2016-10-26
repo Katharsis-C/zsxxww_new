@@ -1,0 +1,30 @@
+
+.rota h6{
+    margin-bottom: 20px;
+}
+
+.rota a{
+    margin-bottom: 18px;
+    padding: 3px 15px !important;
+
+    color: #fff;
+
+    border: 2px solid #1bbc9d !important;
+    border-radius: 9px !important;
+
+    background-color: #1bbc9d;
+}
+
+.rota a:hover,.rota .nav-pills .active>a,.rota .nav-pills .active>a:hover{
+    color: #1bbc9d;
+
+    background-color: #fff;
+}
+
+.rota .tab-content p{
+    float: right;
+}
+
+.rota .table{
+    margin-bottom: 3px;
+}

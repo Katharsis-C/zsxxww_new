@@ -1,0 +1,41 @@
+
+footer{
+    color:#5f6a6b;
+
+    padding-top: 10px;
+
+    background-color: #eee;
+}
+
+footer ul{
+    padding-left: 0;
+
+    list-style: none;
+}
+
+footer p{
+    color:#5f6a6b;
+
+    margin: 20px auto;
+
+    text-align: center;
+}
+
+footer h2{
+    margin: 20px 0;
+
+    color: #5e696a;
+    font-weight: 700;
+}
+
+@media (max-width: 769px) {
+    footer .row div:first-child h2{
+        text-align: center;
+    }
+}
+
+@media (max-width: 550px) {
+    footer h2{
+        text-align: center;
+    }
+}

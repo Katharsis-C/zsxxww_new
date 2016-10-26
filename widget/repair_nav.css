@@ -4,6 +4,48 @@
     text-align: center;
 }
 
+.repair_nav .row{
+    margin-top: 60px;
+}
+
 .repair_nav i{
     font-size: 120px;
+    color: #606a6c;
+}
+
+.repair_nav button{
+    margin:5px 0 20px 0;
+    padding: 2px 18px;
+
+    color: #fff;
+
+    border: 2px solid #1bbc9d !important;
+    border-radius: 8px;
+
+    background-color: #1bbc9d;
+
+    outline: none !important;
+}
+
+.repair_nav button:focus{
+    color: #fff;
+
+    background-color: #1bbc9d;
+}
+
+.repair_nav button:hover,.repair_nav button:active{
+    color: #1bbc9d;
+
+    background-color: #fff;
+}
+@media (min-width: 1000px){
+    .repair_nav p{
+        min-height: 0;
+    }
+}
+
+@media (max-width: 990px) {
+    .repair_nav p{
+        min-height: 42px;
+    }
 }

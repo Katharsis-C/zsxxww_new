@@ -1,10 +1,25 @@
 
+.orbit {
+    margin: 0 auto;
+}
+
+.orbit h1{
+    margin-bottom: 20px;
+
+    color: #fff;
+    font-size: 45px;
+    font-weight: 900;
+    
+    text-align: left;
+}
+
 .orbit .item{
     background-color: #000;
 }
 
 .orbit .item img{
     width: 100%;
+    min-height: 250px;
 
     opacity: .2;
 }
@@ -17,16 +32,18 @@
 
 .carousel-caption{
     left: 0;
-    bottom: 20px;
+    bottom: 40%;
 
     text-align: left;
 }
 
 /*    按钮样式  */
 .carousel-caption .watch{
-    padding:8px 35px;
+    padding:8px 30px;
 
     color: #fff;
+    font-size: 19px;
+    font-weight: 900;
 
     background-color: #1bbc9d;
 
@@ -42,6 +59,8 @@
 /*    文字及加入我们的样式   */
 .carousel-caption p{
     width: 50%;
+
+    line-height: 1.7em;
 }
 .join{
     margin-left: 13px;
@@ -59,12 +78,57 @@
 
 /*     indicators的样式    */
 .carousel-indicators{
-    /*left:0;*/
     bottom:0;
-    /*top: 50px;*/
-
-    /*padding: 0;*/
-
-    /*text-align: left;*/
 }
 
+/*     对关于我们的适配    */
+@media (max-width: 399px) {
+    .carousel-caption{
+        bottom: 10px;
+    }
+    .carousel-caption h1{
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    .carousel-caption .watch{
+        padding: 4px 10px;
+
+        font-size: 13px;
+    }
+}
+@media (max-width:768px) {
+    .carousel-caption{
+        margin-left: 10px;
+    }
+    .carousel-caption p{
+        line-height: 1.3em;
+        width: 65%;
+    }
+    .carousel-caption .watch{
+        padding: 6px 15px;
+
+        font-size: 15px;
+    }
+    .carousel-caption a{
+        margin-left:5px;
+    }
+}
+@media (min-width: 400px) {
+    .carousel-caption{
+        bottom: 10px;
+    }
+    .carousel-caption h1{
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 1000px) {
+    .carousel-caption{
+        bottom: 60px;
+    }
+}
+@media (min-width: 1300px) {
+    .carousel-caption{
+        bottom: 80px;
+    }
+}

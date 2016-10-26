@@ -29,6 +29,18 @@
     padding: 0;
 }
 
+/*    修正手机端navbar的问题    */
+.navbar-collapse{
+    padding: 0;
+}
+.navbar-collapse ul{
+    margin:0;
+    text-align: center;
+}
+.navbar-collapse li{
+    background-color: #fff;
 
+    z-index: 9999;
+}
 
 
