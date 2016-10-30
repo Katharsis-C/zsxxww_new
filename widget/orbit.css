@@ -1,6 +1,7 @@
 
 .orbit {
     margin: 0 auto;
+    z-index: 500;
 }
 
 .orbit h1{
@@ -15,6 +16,8 @@
 
 .orbit .item{
     background-color: #000;
+
+    z-index: 503;
 }
 
 .orbit .item img{
@@ -22,12 +25,15 @@
     min-height: 250px;
 
     opacity: .2;
+    z-index: 506;
 }
 
 .orbit .item .container{
     position: relative;
 
     padding:0;
+
+    z-index: 506;
 }
 
 .carousel-caption{
@@ -61,6 +67,8 @@
     width: 50%;
 
     line-height: 1.7em;
+
+    z-index: 510;
 }
 .join{
     margin-left: 13px;
@@ -79,6 +87,8 @@
 /*     indicators的样式    */
 .carousel-indicators{
     bottom:0;
+
+    z-index: 511;
 }
 
 /*     对关于我们的适配    */
@@ -131,4 +141,12 @@
     .carousel-caption{
         bottom: 80px;
     }
+}
+
+.carousel-inner{
+    z-index: 502;
+}
+
+.carousel{
+    z-index: 501;
 }

@@ -30,17 +30,25 @@
 }
 
 /*    修正手机端navbar的问题    */
+.navbar .container{
+    /*z-index: 2999!important;*/
+}
 .navbar-collapse{
+    position: relative;
     padding: 0;
+    z-index: 3000!important;
 }
 .navbar-collapse ul{
+    /*position: relative;*/
+
     margin:0;
     text-align: center;
+    z-index: 3001!important;
 }
 .navbar-collapse li{
     background-color: #fff;
 
-    z-index: 9999;
+    z-index: 3002!important;
 }
 
 
