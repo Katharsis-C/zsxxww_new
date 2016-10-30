@@ -1,0 +1,23 @@
+.catalog{
+    margin-top:0;
+}
+
+.content{
+    overflow: hidden;
+}
+
+.content img{
+    display: block;
+    width: 70%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    text-align: center;
+}
+
+.content .soheight{
+    height: 400px;
+    width: auto;
+
+    text-align: left;
+}
