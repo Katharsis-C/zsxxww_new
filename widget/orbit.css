@@ -1,6 +1,7 @@
 
 .orbit {
     margin: 0 auto;
+
     z-index: 500;
 }
 
@@ -15,14 +16,18 @@
 }
 
 .orbit .item{
+    max-height: 500px;
+
     background-color: #000;
 
     z-index: 503;
+    overflow: hidden;
 }
 
 .orbit .item img{
-    width: 100%;
-    min-height: 250px;
+    /*width: 100%;*/
+    /*min-height: 250px;*/
+    /*max-height: 500px;*/
 
     opacity: .2;
     z-index: 506;

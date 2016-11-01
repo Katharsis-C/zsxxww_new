@@ -51,4 +51,27 @@
     z-index: 3002!important;
 }
 
+/*      dropdown的样式     */
+.navbar-default li ul{
+    position: absolute;
+
+    display: none;
+    width: 86px;
+    padding-left: 0;
+
+}
+.navbar-default li ul li{
+    padding: 5px;
+}
+.navbar-default li ul a{
+    color: #949494;
+}
+.navbar-default li ul a:hover{
+    color: #3598db;
+    text-decoration: none;
+}
+.navbar-default li:hover ul,.navbar-default li:focus ul{
+    display: block;
+}
+
 
