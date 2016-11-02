@@ -28,14 +28,29 @@ footer h2{
     font-weight: 700;
 }
 
-@media (max-width: 769px) {
-    footer .row div:first-child h2{
-        text-align: center;
-    }
+footer a:hover,footer a:focus{
+    text-decoration: none;
 }
 
-@media (max-width: 550px) {
-    footer h2{
-        text-align: center;
+/*    手机端的底部的动画效果    */
+@media (max-width: 767px) {
+    footer .row h2{
+        font-size: 25px;
+    }
+    footer .drop{
+        height: 0;
+        max-height: 110px;
+
+        overflow: hidden;
+        transition: all 1s ease;
+    }
+    footer .contact:hover .drop{
+        height: 110px;
+    }
+    footer .tools:hover .drop{
+        height: 110px;
+    }
+    footer .about:hover .drop{
+        height: 110px;
     }
 }

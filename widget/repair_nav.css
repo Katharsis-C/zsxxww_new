@@ -1,18 +1,20 @@
 
 .repair_nav{
-
     text-align: center;
 }
 
+/*    让移动端上下行之间有空间   */
 .repair_nav .row{
     margin-top: 60px;
 }
 
+/*    icon样式   */
 .repair_nav i{
     font-size: 120px;
     color: #606a6c;
 }
 
+/*    按钮样式   */
 .repair_nav .btn{
     margin:5px 0 20px 0;
     padding: 2px 18px;
@@ -26,24 +28,23 @@
 
     outline: none !important;
 }
-
 .repair_nav button:focus{
     color: #fff;
 
     background-color: #1bbc9d;
 }
-
-.repair_nav button:hover,.repair_nav button:active{
+.repair_nav button:hover,.repair_nav button:active,.repair_nav a:hover,.repair_nav a:active{
     color: #1bbc9d;
 
     background-color: #fff;
 }
+
+/*     对width小于990的情况的btn的位置进行纠正，使之平行      */
 @media (min-width: 1000px){
     .repair_nav p{
         min-height: 0;
     }
 }
-
 @media (max-width: 990px) {
     .repair_nav p{
         min-height: 42px;

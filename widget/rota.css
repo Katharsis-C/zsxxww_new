@@ -3,6 +3,7 @@
     margin-bottom: 20px;
 }
 
+/*    修改按钮的样式    */
 .rota a{
     margin-bottom: 18px;
     padding: 3px 15px !important;
@@ -14,17 +15,18 @@
 
     background-color: #1bbc9d;
 }
-
 .rota a:hover,.rota .nav-pills .active>a,.rota .nav-pills .active>a:hover,.rota .nav-pills .active a:focus{
     color: #1bbc9d;
 
     background-color: #fff;
 }
 
+/*    底下投诉电话使之浮动向右    */
 .rota .tab-content p{
     float: right;
 }
 
+/*     让投诉电话和表格有一定间距     */
 .rota .table{
     margin-bottom: 3px;
 }

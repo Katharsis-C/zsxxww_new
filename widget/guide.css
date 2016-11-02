@@ -2,6 +2,11 @@
     margin-top:0;
 }
 
+.catalog ul{
+    color: #ebebeb;
+}
+
+/*   防止图片太大溢出，影响整体  */
 .content{
     overflow: hidden;
 }
@@ -15,6 +20,7 @@
     text-align: center;
 }
 
+/*    对高度太大的图片的处理   */
 .content .soheight{
     height: 400px;
     width: auto;
