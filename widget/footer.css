@@ -28,6 +28,11 @@ footer h2{
     font-weight: 700;
 }
 
+/*   让电脑端鼠标移动到标题时正常  */
+footer .col-xs-12 > a:-webkit-any-link{
+    cursor:default !important;
+}
+
 footer a:hover,footer a:focus{
     text-decoration: none;
 }

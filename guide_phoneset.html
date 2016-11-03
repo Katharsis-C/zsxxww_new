@@ -50,9 +50,10 @@
                     <li><a href="guide_foreword.html">网络指引</a></li>
                     <li><a href="javascript:void(0);">关于我们</a>
                         <ul>
-                            <li><a href="">搜狗百科</a></li>
-                            <li><a href="">网维wiki</a></li>
-                            <li><a href="">百度百科</a></li>
+                            <li><a href="http://baike.sogou.com/v63143404.htm?fromTitle=%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E4%B8%AD%E5%B1%B1%E5%AD%A6%E9%99%A2%E7%BD%91%E7%BB%9C%E7%BB%B4%E6%8A%A4%E7%A7%91"
+                                   target="_blank">搜狗百科</a></li>
+                            <li><a href="http://wiki.sola.love" target="_blank">网维wiki</a></li>
+                            <li><a href="http://baike.baidu.com/view/6287923.htm" target="_blank">百度百科</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -86,14 +87,18 @@
     <div class="container">
         <article>
             <h3>电信手机端设置上网</h3>
+            <hr>
             <p>打开下载好的客户端（如下图），点击登录输入账号密码，即可使用wifi上网啦。</p>
             <img src="images/guide11.png" class="soheight">
             <p>若是无法登陆，请检查账号密码的正确性，返回上图客户端首页，点击右上角问号，可打开以下帮助指引页面，这个页面列出了一些登陆常遇到的错误和代码，以及解决方法。根据登陆的错误提示，可以解决您的常见问题。</p>
             <p>关闭客户端时，请选择后台运行，若系统安装清理软件，例如（猎豹清理大师，360安全大师，腾讯管家等），请将天翼客户端添加到白名单中，以防止系统后台清理时导致天翼客户端非正常关闭发生断网。</p>
         </article>
+        <div class="pageTurn">
+            <a href="guide_phonePrepare.html">上一条：电信手机端上网前的准备</a>
+            <a href="guide_newclient.html">下一条：电信新客户端功能介绍</a>
+        </div><!-- /pageTurn -->
     </div><!-- / container -->
 </section>
-
 <footer>
     <div class="container">
         <div class="row">
@@ -113,11 +118,11 @@
                 <a href="javascript:void(0);"><h2>便捷工具</h2></a>
                 <div class="drop">
                     <ul>
-                        <li><a href=" #">电信余额查询</a></li>
-                        <li><a href="#">宽带充值</a></li>
-                        <li><a href="#">信息中心官方网址</a></li>
-                        <li><a href="#">学院教务管理</a></li>
-                        <li><a href="#">英语四、六级成绩查询</a></li>
+                        <li><a href="http://util.sola.love/yue.html" target="_blank">电信余额查询</a></li>
+                        <li><a href="http://gd.189.cn/webpay/chongzhi/czindex.jsp" target="_blank">宽带充值</a></li>
+                        <li><a href="http://www2.zsc.edu.cn/xxzx" target="_blank">信息中心官方网址</a></li>
+                        <li><a href="http://jwgl.zsc.edu.cn:90/" target="_blank">学院教务管理</a></li>
+                        <li><a href="http://util.sola.love/cet" target="_blank">英语四、六级成绩查询</a></li>
                     </ul>
                 </div><!-- / drop -->
             </div><!-- / col-lg-3 -->
@@ -125,9 +130,10 @@
                 <a href="javascript:void(0);"><h2>网维百科</h2></a>
                 <div class="drop">
                     <ul>
-                        <li><a href=" #">搜狗百科</a></li>
-                        <li><a href="#">网维wiki</a></li>
-                        <li><a href="#">百度百科</a></li>
+                        <li><a href="http://baike.sogou.com/v63143404.htm?fromTitle=%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E4%B8%AD%E5%B1%B1%E5%AD%A6%E9%99%A2%E7%BD%91%E7%BB%9C%E7%BB%B4%E6%8A%A4%E7%A7%91"
+                               target="_blank">搜狗百科</a></li>
+                        <li><a href="http://wiki.sola.love" target="_blank">网维wiki</a></li>
+                        <li><a href="http://baike.baidu.com/view/6287923.htm" target="_blank">百度百科</a></li>
                     </ul>
                 </div><!-- / drop -->
             </div><!-- / col-lg-3 -->
@@ -135,9 +141,11 @@
         <p>Copyright © 2016 中山学院网络维护科</p>
     </div><!-- / container -->
 </footer>
-
+<!--  手机nav点击后背景的不可见阴影  -->
+<div id="phone-shadow"></div><!-- / phone-shadow -->
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
+<script src="widget/video.js"></script>
+<script src="widget/phone_nav.js"></script>
 </body>
 </html>

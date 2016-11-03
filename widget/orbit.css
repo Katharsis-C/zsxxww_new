@@ -11,6 +11,7 @@
     color: #fff;
     font-size: 45px;
     font-weight: 900;
+    letter-spacing: .5em;
     
     text-align: left;
 }
@@ -96,7 +97,7 @@
 }
 
 /*     对关于我们的适配    */
-@media (max-width: 399px) {
+@media (max-width: 414px) {
     .carousel-caption{
         bottom: 0;
     }
@@ -140,7 +141,7 @@
     }
 }
 /*    对bottom的适配，及对width大于400的h1的样式进行修改  */
-@media (min-width: 400px) {
+@media (min-width: 415px) {
     .carousel-caption{
         bottom: 10px;
     }
@@ -168,4 +169,26 @@
 .carousel{
     /*    orbit整体   */
     z-index: 501;
+}
+
+/*    video    */
+#video {
+    position: fixed;
+    left: 50%;
+    top:50%;
+
+    display: none;
+    width: 50%;
+
+    background-color: #fff;
+
+    /*    使其居中   */
+    transform: translate(-50%, -50%);
+
+    z-index: 5001;
+}
+@media (max-width: 768px) {
+    #video{
+        width: 100%;
+    }
 }

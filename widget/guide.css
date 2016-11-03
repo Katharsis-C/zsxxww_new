@@ -3,7 +3,12 @@
 }
 
 .catalog ul{
+    padding-left: 20px;
     color: #ebebeb;
+}
+
+.catalog li{
+    margin-top: 5px;
 }
 
 /*   防止图片太大溢出，影响整体  */
@@ -26,4 +31,18 @@
     width: auto;
 
     text-align: left;
+}
+
+/*   让table与上方内容有点间距   */
+.content table{
+    margin-top: 15px;
+}
+
+/*     翻页样式   */
+.pageTurn{
+    margin-top: 20px;
+}
+.pageTurn a{
+    display: block;
+    margin-top: 5px;
 }
