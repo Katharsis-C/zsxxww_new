@@ -1,0 +1,528 @@
+<!DOCTYPE>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>中山学院网络维护科</title>
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="widget/general.css" rel="stylesheet">
+    <link href="widget/header.css" rel="stylesheet">
+    <link href="widget/orbit.css" rel="stylesheet">
+    <link href="widget/repair_nav.css" rel="stylesheet">
+    <link href="widget/rota.css" rel="stylesheet">
+    <link href="widget/footer.css" rel="stylesheet">
+    <link href="widget/guide.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="bower_components/html5shiv/dist/html5shiv.min.js"></script>
+    <script src="bower_components/respond/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img alt="Brand" src="images/logo.jpg">
+                </a>
+            </div><!-- /  navbar-header -->
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="#repair_nav">报修导航</a></li>
+                    <li><a href="#rota">值班表</a></li>
+                    <li><a href="guide_foreword.html">网络指引</a></li>
+                    <li><a href="javascript:void(0);">关于我们</a>
+                        <ul>
+                            <li><a href="http://baike.sogou.com/v63143404.htm?fromTitle=%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E4%B8%AD%E5%B1%B1%E5%AD%A6%E9%99%A2%E7%BD%91%E7%BB%9C%E7%BB%B4%E6%8A%A4%E7%A7%91"
+                                     target="_blank">搜狗百科</a></li>
+                            <li><a href="http://wiki.sola.love" target="_blank">网维wiki</a></li>
+                            <li><a href="http://baike.baidu.com/view/6287923.htm" target="_blank">百度百科</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+    </nav>
+</header>
+
+<section class="orbit">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+            <!--<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>-->
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/orbit0_m.jpg" class="img-responsive" alt="">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>关于我们</h1>
+                        <p>网络维护科是由学院信息中心直接领导的学生组织，主要职责包括保障校内师生的正常上网，处理和协助处理校园。</p>
+                        <button type="button" class="btn btn-default watch">观 看 视 频</button>
+                        <a href="join.html" class="join" target="_blank">加入我们</a>
+                    </div><!-- /  carousel-caption -->
+                </div><!-- / container -->
+            </div><!-- / item -->
+        </div><!-- / carousel-inner -->
+    </div><!-- carousel-->
+</section>
+
+<section class="repair_nav" id="repair_nav">
+    <div class="container">
+        <h1>报修导航</h1>
+        <h6>选择你喜爱的方式</h6>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <i class="fa fa-weixin" aria-hidden="true"></i>
+                <h4>微信报修</h4>
+                <p>使用中山学院网维报修系统进行报修，我们会优先解决</p>
+                <a href="guide_wechat.html" class="btn btn-default knowmore" target="_blank">了解更多</a>
+            </div><!-- / col-lg-3 -->
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <i class="fa fa-file-text" aria-hidden="true"></i>
+                <h4>纸质报修</h4>
+                <p>各个宿管处都有我们的报修表，和宿管说明你要网络报修</p>
+                <a href="guide_paper.html" class="btn btn-default knowmore" target="_blank">了解更多</a>
+            </div><!-- / col-lg-3 -->
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+                <h4>电话报修</h4>
+                <p>请尽量联系当天值班负责人，若联系不上，请联系其他负责人</p>
+                <a href="guide_phonerepair.html" class="btn btn-default knowmore" target="_blank">了解更多</a>
+            </div><!-- / col-lg-3 -->
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <i class="fa fa-weibo" aria-hidden="true"></i>
+                <h4>微博报修</h4>
+                <p>关注我们的微博，私信给我们电话号码和宿舍号等信息</p>
+                <a href="http://weibo.com/zsxyww" class="btn btn-default knowmore" target="_blank">前往关注</a>
+            </div><!-- / col-lg-3 -->
+        </div><!-- / row -->
+    </div><!-- / container -->
+</section>
+
+<section class="rota" id="rota">
+    <div class="container">
+        <h1>值班表</h1>
+        <h6>认准我们的值班人员</h6>
+        <div class="table">
+            <!-- Nav tabs -->
+            <ul class="nav nav-pills" role="tablist">
+                <li role="presentation" class="active"><a href="#mon" role="tab" data-toggle="tab">星期一</a></li>
+                <li role="presentation"><a href="#tue" role="tab" data-toggle="tab">星期二</a></li>
+                <li role="presentation"><a href="#wed" role="tab" data-toggle="tab">星期三</a></li>
+                <li role="presentation"><a href="#thu" role="tab" data-toggle="tab">星期四</a></li>
+                <li role="presentation"><a href="#fri" role="tab" data-toggle="tab">星期五</a></li>
+                <li role="presentation"><a href="#sat" role="tab" data-toggle="tab">星期六</a></li>
+                <li role="presentation"><a href="#sun" role="tab" data-toggle="tab">星期天</a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade in active" id="mon">
+                    <div class="table-responsive">
+                        <table class="table table-bordered  table-hover">
+                            <thead>
+                            <tr>
+                                <th>值班区域</th>
+                                <th>值班人员</th>
+                                <th>联系电话</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>值班组长</td>
+                                <td>叶江南</td>
+                                <td>18928187450</td>
+                            </tr>
+                            <tr>
+                                <td>1-6栋</td>
+                                <td>郑灿彬</td>
+                                <td>18928187477</td>
+                            </tr>
+                            <tr>
+                                <td>7-11栋</td>
+                                <td>赵芃</td>
+                                <td>18928187481</td>
+                            </tr>
+                            <tr>
+                                <td>12-15、20、21栋</td>
+                                <td>陈芮</td>
+                                <td>18928187470</td>
+                            </tr>
+                            <tr>
+                                <td>16--19栋</td>
+                                <td>刘伯奇</td>
+                                <td>报修请联系组长</td>
+                            </tr>
+                            <tr>
+                                <td>16--19栋</td>
+                                <td>何宇森、郭嘉慧</td>
+                                <td>18928187479</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <p>*投诉电话：王广鹏 -- 18928187471</p>
+                    </div><!-- / table-responsive -->
+                </div><!-- / tab-pane -->
+                <div role="tabpanel" class="tab-pane fade" id="tue">
+                    <div class="table-responsive">
+                        <table class="table table-bordered  table-hover">
+                            <thead>
+                            <tr>
+                                <th>值班区域</th>
+                                <th>值班人员</th>
+                                <th>联系电话</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>值班组长</td>
+                                <td>刘越</td>
+                                <td>18928187469</td>
+                            </tr>
+                            <tr>
+                                <td>1-6栋</td>
+                                <td>李楚鹏、王震</td>
+                                <td>18928187472</td>
+                            </tr>
+                            <tr>
+                                <td>7-11栋</td>
+                                <td>周琳滔</td>
+                                <td>18928187462</td>
+                            </tr>
+                            <tr>
+                                <td>12-15、20、21栋</td>
+                                <td>黄琪真</td>
+                                <td>18928187480</td>
+                            </tr>
+                            <tr>
+                                <td>16--19栋</td>
+                                <td>高思诚</td>
+                                <td>报修请联系组长</td>
+                            </tr>
+                            <tr>
+                                <td>16--19栋</td>
+                                <td>刘越</td>
+                                <td>18928187469</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <p>*投诉电话：王广鹏 -- 18928187471</p>
+                    </div><!-- / table-responsive -->
+                </div><!-- / tab-pane -->
+                <div role="tabpanel" class="tab-pane fade" id="wed">
+                    <div class="table-responsive">
+                        <table class="table table-bordered  table-hover">
+                            <thead>
+                            <tr>
+                                <th>值班区域</th>
+                                <th>值班人员</th>
+                                <th>联系电话</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>值班组长</td>
+                                <td>蔡哲宏</td>
+                                <td>18928187463</td>
+                            </tr>
+                            <tr>
+                                <td>1-6栋</td>
+                                <td>姜子麒</td>
+                                <td>18928187454</td>
+                            </tr>
+                            <tr>
+                                <td>7-11栋</td>
+                                <td>文晓新</td>
+                                <td>报修请联系组长</td>
+                            </tr>
+                            <tr>
+                                <td>12-15、20、21栋</td>
+                                <td>罗星华</td>
+                                <td>18928187467</td>
+                            </tr>
+                            <tr>
+                                <td>16--19栋</td>
+                                <td>周文娣</td>
+                                <td>18928187460</td>
+                            </tr>
+                            <tr>
+                                <td>16--19栋</td>
+                                <td>黄恩、卢泓宇</td>
+                                <td>18928180137</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <p>*投诉电话：王广鹏 -- 18928187471</p>
+                    </div><!-- / table-responsive -->
+                </div><!-- / tab-pane -->
+                <div role="tabpanel" class="tab-pane fade" id="thu">
+                    <div class="table-responsive">
+                        <table class="table table-bordered  table-hover">
+                            <thead>
+                            <tr>
+                                <th>值班区域</th>
+                                <th>值班人员</th>
+                                <th>联系电话</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>值班组长</td>
+                                <td>曾家兴</td>
+                                <td>18928187455</td>
+                            </tr>
+                            <tr>
+                                <td>1-6栋</td>
+                                <td>杨光、陈珊珊</td>
+                                <td>18928187465</td>
+                            </tr>
+                            <tr>
+                                <td>7-11栋</td>
+                                <td>梁浩均、曹征晖</td>
+                                <td>18928187451</td>
+                            </tr>
+                            <tr>
+                                <td>12-15、20、21栋</td>
+                                <td>李传德</td>
+                                <td>18928187482</td>
+                            </tr>
+                            <tr>
+                                <td>16--19栋</td>
+                                <td>李昂</td>
+                                <td>18928187464</td>
+                            </tr>
+                            <tr>
+                                <td>16--19栋</td>
+                                <td>蔡培焕</td>
+                                <td>报修请联系组长</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <p>*投诉电话：王广鹏 -- 18928187471</p>
+                    </div><!-- / table-responsive -->
+                </div><!-- / tab-pane -->
+                <div role="tabpanel" class="tab-pane fade" id="fri">
+                    <div class="table-responsive">
+                        <table class="table table-bordered  table-hover">
+                            <thead>
+                            <tr>
+                                <th>值班区域</th>
+                                <th>值班人员</th>
+                                <th>联系电话</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>值班组长</td>
+                                <td>麦晓达</td>
+                                <td>18928187466</td>
+                            </tr>
+                            <tr>
+                                <td>1-6栋</td>
+                                <td>沙子森</td>
+                                <td>18928187476</td>
+                            </tr>
+                            <tr>
+                                <td>7-11栋</td>
+                                <td>朱宇超</td>
+                                <td>报修请联系组长</td>
+                            </tr>
+                            <tr>
+                                <td>12-15、20、21栋</td>
+                                <td>徐集涵</td>
+                                <td>18928187452</td>
+                            </tr>
+                            <tr>
+                                <td>16--19栋</td>
+                                <td>佘佳殷</td>
+                                <td>18928187473</td>
+                            </tr>
+                            <tr>
+                                <td>16--19栋</td>
+                                <td>麦晓达、黄雯婷</td>
+                                <td>18928187466</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <p>*投诉电话：王广鹏 -- 18928187471</p>
+                    </div><!-- / table-responsive -->
+                </div><!-- / tab-pane -->
+                <div role="tabpanel" class="tab-pane fade" id="sat">
+                    <div class="table-responsive">
+                        <table class="table table-bordered  table-hover">
+                            <thead>
+                            <tr>
+                                <th>值班区域</th>
+                                <th>值班人员</th>
+                                <th>联系电话</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>值班组长</td>
+                                <td>许佳培</td>
+                                <td>18928187459</td>
+                            </tr>
+                            <tr>
+                                <td>1-6栋</td>
+                                <td>郭绍铭</td>
+                                <td>18928187475</td>
+                            </tr>
+                            <tr>
+                                <td>7-11栋</td>
+                                <td>王俊杰</td>
+                                <td>报修请联系组长</td>
+                            </tr>
+                            <tr>
+                                <td>12-15、20、21栋</td>
+                                <td>郑锦琪</td>
+                                <td>报修请联系组长</td>
+                            </tr>
+                            <tr>
+                                <td>16--19栋</td>
+                                <td>李沅霖</td>
+                                <td>报修请联系组长</td>
+                            </tr>
+                            <tr>
+                                <td>16--19栋</td>
+                                <td>唐聚生、全精精</td>
+                                <td>18928187457</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <p>*投诉电话：王广鹏 -- 18928187471</p>
+                    </div><!-- / table-responsive -->
+                </div><!-- / tab-pane -->
+                <div role="tabpanel" class="tab-pane fade" id="sun">
+                    <div class="table-responsive">
+                        <table class="table table-bordered  table-hover">
+                            <thead>
+                            <tr>
+                                <th>值班区域</th>
+                                <th>值班人员</th>
+                                <th>联系电话</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>值班组长</td>
+                                <td>周文娣</td>
+                                <td>18928187460</td>
+                            </tr>
+                            <tr>
+                                <td>1-6栋</td>
+                                <td>刘金家</td>
+                                <td>18928187483</td>
+                            </tr>
+                            <tr>
+                                <td>7-11栋</td>
+                                <td>王子民、周名海</td>
+                                <td>18928187474</td>
+                            </tr>
+                            <tr>
+                                <td>12-15、20、21栋</td>
+                                <td>陈坚荣</td>
+                                <td>18928187485</td>
+                            </tr>
+                            <tr>
+                                <td>16--19栋</td>
+                                <td>谢理成</td>
+                                <td>18928187484</td>
+                            </tr>
+                            <tr>
+                                <td>16--19栋</td>
+                                <td>程楚婷芮、周俊盛</td>
+                                <td>18928187456</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <p>*投诉电话：王广鹏 -- 18928187471</p>
+                    </div><!-- / table-responsive -->
+                </div><!-- / tab-pane -->
+            </div><!-- / tab-content -->
+        </div><!-- / table -->
+    </div><!-- / container -->
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 contact">
+                <a href="javascript:void(0);"><h2>联系我们</h2></a>
+                <div class="drop">
+                    <address>
+                        (+86)0760-88332760<br>
+                        <a href="mailto:#">admin@zsxyww.com</a><br>
+                        微信公众号：zsxyww<br>
+                        微博：中山学院网络维护科<br>
+                        电子科技大学中山学院实验楼 B 幢 207 室
+                    </address>
+                </div><!-- / drop -->
+            </div><!-- / col-lg-4 -->
+            <div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-4 col-xs-12 tools">
+                <a href="javascript:void(0);"><h2>便捷工具</h2></a>
+                <div class="drop">
+                    <ul>
+                        <li><a href="http://util.sola.love/yue.html" target="_blank">电信余额查询</a></li>
+                        <li><a href="http://gd.189.cn/webpay/chongzhi/czindex.jsp" target="_blank">宽带充值</a></li>
+                        <li><a href="http://www2.zsc.edu.cn/xxzx" target="_blank">信息中心官方网址</a></li>
+                        <li><a href="http://jwgl.zsc.edu.cn:90/" target="_blank">学院教务管理</a></li>
+                        <li><a href="http://util.sola.love/cet" target="_blank">英语四、六级成绩查询</a></li>
+                    </ul>
+                </div><!-- / drop -->
+            </div><!-- / col-lg-3 -->
+            <div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-3 col-xs-12 about">
+                <a href="javascript:void(0);"><h2>网维百科</h2></a>
+                <div class="drop">
+                    <ul>
+                        <li><a href="http://baike.sogou.com/v63143404.htm?fromTitle=%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E4%B8%AD%E5%B1%B1%E5%AD%A6%E9%99%A2%E7%BD%91%E7%BB%9C%E7%BB%B4%E6%8A%A4%E7%A7%91"
+                                target="_blank">搜狗百科</a></li>
+                        <li><a href="http://wiki.sola.love" target="_blank">网维wiki</a></li>
+                        <li><a href="http://baike.baidu.com/view/6287923.htm" target="_blank">百度百科</a></li>
+                    </ul>
+                </div><!-- / drop -->
+            </div><!-- / col-lg-3 -->
+        </div><!-- / row -->
+        <p>Copyright © 2016 中山学院网络维护科</p>
+    </div><!-- / container -->
+</footer>
+
+<!--  手机nav点击后背景的不可见阴影  -->
+<div id="phone-shadow"></div><!-- / phone-shadow -->
+
+<div id="shadow"></div><!-- / shadow -->
+
+<div id="video">
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src=""></iframe>
+    </div><!-- / embed-responsive -->
+</div><!-- / video -->
+
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="widget/video.js"></script>
+<script src="widget/phone_nav.js"></script>
+
+</body>
+</html>

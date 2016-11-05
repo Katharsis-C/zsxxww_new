@@ -1,0 +1,197 @@
+
+.orbit {
+    margin: 0 auto;
+
+    z-index: 500;
+}
+
+.orbit h1{
+    margin-bottom: 20px;
+
+    color: #fff;
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing: .5em;
+    
+    text-align: left;
+}
+
+.orbit .item{
+    max-height: 550px;
+
+    background-color: #000;
+
+    z-index: 503;
+    overflow: hidden;
+}
+
+.orbit .item img{
+    width: 100%;
+    max-height: 550px;
+
+    opacity: .2;
+    z-index: 506;
+}
+
+.orbit .item .container{
+    position: relative;
+
+    padding:0;
+
+    z-index: 506;
+}
+
+.carousel-caption{
+    left: 0;
+    bottom: 40%;
+
+    text-align: left;
+}
+
+/*    按钮样式  */
+.carousel-caption .watch{
+    padding:8px 30px;
+
+    color: #fff;
+    font-size: 19px;
+    font-weight: 900;
+
+    background-color: #1bbc9d;
+
+    border: none;
+}
+.carousel-caption .watch:hover{
+    background-color: #1BBC8B;
+}
+.carousel-caption .watch:focus{
+    outline:0
+}
+
+/*    文字及加入我们的样式   */
+.carousel-caption p{
+    width: 50%;
+
+    line-height: 1.7em;
+
+    z-index: 510;
+}
+.join{
+    margin-left: 13px;
+
+    color: #fff;
+}
+.join:hover{
+    color: #1bbc9d;
+    text-decoration: none;
+}
+.join:focus{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*     indicators的样式    */
+.carousel-indicators{
+    bottom:0;
+
+    z-index: 511;
+}
+
+/*     对关于我们的适配    */
+@media (max-width: 414px) {
+    .carousel-caption{
+        bottom: 0;
+    }
+    .carousel-caption h1{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .carousel-caption .watch{
+        padding: 4px 10px;
+
+        font-size: 13px;
+    }
+    .carousel-caption p{
+        line-height: 1.3em;
+        font-size: 10px;
+    }
+}
+@media (max-width:767px) {
+    .carousel-caption{
+        margin-left: 10px;
+    }
+    .carousel-caption p{
+        line-height: 1.3em;
+        width: 65%;
+    }
+    .carousel-caption .watch{
+        padding: 6px 15px;
+
+        font-size: 15px;
+    }
+    .carousel-caption a{
+        margin-left:5px;
+    }
+    .carousel-caption .watch{
+        padding: 4px 12px;
+
+        font-size: 13px;
+    }
+    .carousel-caption a{
+        font-size: 12px;
+    }
+}
+/*    对bottom的适配，及h1的样式进行修改  */
+@media (min-width: 415px) {
+    .carousel-caption{
+        bottom: 10px;
+    }
+    .carousel-caption h1{
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 1000px) {
+    .carousel-caption{
+        bottom: 60px;
+    }
+    .carousel-caption h1{
+        font-size: 40px;
+    }
+}
+@media (min-width: 1300px) {
+    .carousel-caption{
+        bottom: 80px;
+    }
+}
+
+/*    对z-index的修改   */
+.carousel-inner{
+    /*   文字和图片  */
+    z-index: 502;
+}
+.carousel{
+    /*    orbit整体   */
+    z-index: 501;
+}
+
+/*    video    */
+#video {
+    position: fixed;
+    left: 50%;
+    top:50%;
+
+    display: none;
+    width: 50%;
+
+    background-color: #fff;
+
+    /*    使其居中   */
+    transform: translate(-50%, -50%);
+
+    z-index: 5001;
+}
+@media (max-width: 768px) {
+    #video{
+        width: 100%;
+    }
+}

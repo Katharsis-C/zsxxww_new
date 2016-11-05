@@ -1,0 +1,54 @@
+section{
+    margin: 40px auto;
+}
+
+body {
+    font-family:  Microsoft Yahei , sans-serif;
+}
+
+h1,h2,h3,h4.h5,h6{
+    letter-spacing: .1em;
+}
+
+h1{
+    color: #5e696a;
+    font-size: 40px;
+
+    text-align: center;
+}
+
+h6{
+    color: #5e696a;
+
+    text-align: center;
+}
+
+/*   全屏阴影  */
+#shadow{
+    position: fixed;
+    left: 0;
+    top:0;
+
+    display: none;
+    width: 100%;
+    height: 100%;
+
+    background-color: #000000;
+    opacity: .6;
+    z-index: 5000;
+}
+/*    手机nav的不可见阴影  */
+#phone-shadow{
+    position: fixed;
+    left: 0;
+    top:0;
+
+    display: none;
+    width: 100%;
+    height: 100%;
+
+    background-color: #000000;
+    opacity: 0;
+    z-index: 4000;
+}
+

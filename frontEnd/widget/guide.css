@@ -1,0 +1,55 @@
+.catalog{
+    margin-top:0;
+}
+
+.catalog ul{
+    padding-left: 20px;
+    color: #ebebeb;
+}
+
+.catalog li{
+    margin-top: 5px;
+}
+
+/*   防止图片太大溢出，影响整体  */
+.content{
+    overflow: hidden;
+}
+
+.content img{
+    display: block;
+    width: 70%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    text-align: center;
+}
+
+/*    对高度太大的图片的处理   */
+.content .soheight{
+    height: 400px;
+    width: auto;
+
+    text-align: left;
+}
+
+/*   让table与上方内容有点间距   */
+.content table{
+    margin-top: 15px;
+}
+
+/*     翻页样式   */
+.pageTurn{
+    margin-top: 20px;
+}
+.pageTurn a{
+    display: block;
+    margin-top: 5px;
+}
+
+@media (max-width: 767px) {
+    .content .container img{
+        width: 100% ;
+        height: auto !important;
+    }
+}
