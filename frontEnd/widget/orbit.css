@@ -12,6 +12,7 @@
     font-size: 45px;
     font-weight: 900;
     letter-spacing: .5em;
+    line-height: 1.2em;
     
     text-align: left;
 }
@@ -51,6 +52,7 @@
 /*    按钮样式  */
 .carousel-caption .watch{
     padding:8px 30px;
+    margin-left: 0;
 
     color: #fff;
     font-size: 19px;
@@ -97,24 +99,6 @@
 }
 
 /*     对关于我们的适配    */
-@media (max-width: 414px) {
-    .carousel-caption{
-        bottom: 0;
-    }
-    .carousel-caption h1{
-        font-size: 20px;
-        margin-bottom: 5px;
-    }
-    .carousel-caption .watch{
-        padding: 4px 10px;
-
-        font-size: 13px;
-    }
-    .carousel-caption p{
-        line-height: 1.3em;
-        font-size: 10px;
-    }
-}
 @media (max-width:767px) {
     .carousel-caption{
         margin-left: 10px;
@@ -140,8 +124,53 @@
         font-size: 12px;
     }
 }
+@media (max-width: 600px) {
+    .carousel-caption{
+        bottom: 0;
+    }
+    .carousel-caption h1{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .carousel-caption .watch{
+        padding: 4px 10px;
+
+        font-size: 13px;
+    }
+    .carousel-caption p{
+        line-height: 1.3em;
+        font-size: 10px;
+    }
+}
+@media (max-width: 400px) {
+    .carousel-caption h1{
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .carousel-caption .watch{
+        padding: 3px 8px;
+
+        font-size: 11px;
+    }
+    .carousel-caption p{
+        margin-bottom: 5px;
+
+        line-height: 1.2em;
+        font-size: 8px;
+    }
+    .carousel-caption .join{
+        font-size: 7px;
+        margin-left: 1px;
+    }
+}
+
 /*    对bottom的适配，及h1的样式进行修改  */
-@media (min-width: 415px) {
+@media (min-width: 300px){
+    .carousel-caption{
+        bottom: 2px;
+    }
+}
+@media (min-width: 600px) {
     .carousel-caption{
         bottom: 10px;
     }

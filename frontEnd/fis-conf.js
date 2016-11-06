@@ -16,12 +16,21 @@ fis.match('::packager', {
     postpackager: fis.plugin('loader')
 });
 
+//     修改html里面的js和css的路径
+fis.match('public/javascripts/app.js', {
+    url: '/javascripts/app.js'
+});
+fis.match('public/stylesheets/app.css', {
+    url: '/stylesheets/app.css'
+});
+
+
 //      对app.js的处理
 fis.match('/widget/*.js', {
     url: '/javascripts/app.js',
     optimizer: fis.plugin('uglify-js'),
     release: '/public/javascripts/app.js',
-    packTo:'/public/javascripts/app.js'
+    packTo: '/public/javascripts/app.js'
 });
 fis.match('bower_components/jquery/dist/jquery.min.js', {
     url: '/javascripts/app.js',
@@ -34,16 +43,14 @@ fis.match('bower_components/bootstrap/dist/js/bootstrap.min.js', {
     packTo: '/public/javascripts/app.js'
 });
 
-//       对ie.jd的处理
+//       对ie加载文件的处理
 fis.match('bower_components/html5shiv/dist/html5shiv.min.js', {
-    url: '/javascripts/ie.js',
-    release: '/public/javascripts/ie.js',
-    packTo: '/public/javascripts/ie.js'
+    url: '/javascripts/html5shiv.min.js',
+    release: '/public/javascripts/html5shiv.min.js'
 });
 fis.match('bower_components/respond/dest/respond.min.js', {
-    url: '/javascripts/ie.js',
-    release: '/public/javascripts/ie.js',
-    packTo: '/public/javascripts/ie.js'
+    url: '/javascripts/respond.min.js',
+    release: '/public/javascripts/respond.min.js'
 });
 
 //         对CSS的处理
@@ -107,15 +114,4 @@ fis.match('bower_components/bootstrap/dist/css/bootstrap.min.css.map', {
     release: '/public/stylesheets/$0'
 });
 
-
-//     修改html里面的js和css的路径
-fis.match('public/javascripts/app.js', {
-    url: '/javascripts/app.js'
-});
-fis.match('public/javascripts/ie.js', {
-    url: '/javascripts/ie.js'
-});
-fis.match('public/stylesheets/app.css', {
-    url: '/stylesheets/app.css'
-});
 
