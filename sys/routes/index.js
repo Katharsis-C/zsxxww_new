@@ -22,6 +22,24 @@ router.get('/index.html', function (req, res, next) {
     })
 });
 
+router.get('/gallery', function (req, res, next) {
+    res.sendFile(dirname +'/public/html/gallery.html', function (err) {
+        if (err) {
+            console.log(err);
+            res.status(err.status).end();
+        }
+    })
+});
+
+router.get('/gallery.html', function (req, res, next) {
+    res.sendFile(dirname +'/public/html/gallery.html', function (err) {
+        if (err) {
+            console.log(err);
+            res.status(err.status).end();
+        }
+    })
+});
+
 router.get('/guide_foreword.html', function (req, res, next) {
     res.sendFile(dirname +'/public/html/guide_foreword.html', function (err) {
         if (err) {

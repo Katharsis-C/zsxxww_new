@@ -27,6 +27,7 @@
     "html5shiv": "^3.7.3",
     "respond": "^1.4.2",
     "font-awesome": "fontawesome#^4.6.3",
-    "markdown-js": "^0.6.2"
+    "lazyload": "^3.2.2",
+    "jquery": "^3.1.1"
   }
 }

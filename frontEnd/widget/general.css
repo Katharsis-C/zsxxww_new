@@ -52,3 +52,50 @@ h6{
     z-index: 4000;
 }
 
+/*   返回顶部  */
+#go-top{
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+
+    display: none;
+    margin-left: 600px;
+    padding-top: 7px;
+    width: 35px;
+    height: 35px;
+
+    text-align: center;
+
+    background-color: #1ebc9d;
+
+    z-index: 3999;
+    opacity: .4;
+    transition: all .4s ease;
+}
+#go-top:hover{
+    opacity: 1;
+}
+@media (max-width: 1300px) {
+    #go-top{
+        left: auto;
+        right: 20px;
+        margin-left: 0;
+    }
+}
+@media (max-width: 768px) {
+    #go-top{
+        right: 10px;
+        bottom: 30px;
+    }
+    #go-top:hover{
+        opacity: .4;
+    }
+}
+
+#go-top i{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+

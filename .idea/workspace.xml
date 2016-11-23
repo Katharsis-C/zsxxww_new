@@ -2,18 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae2475cf-5e14-482f-b798-45cdde6769d6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontEnd/images/orbit1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontEnd/images/orbit1_m.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sys/public/fonts/bower_components/font-awesome/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sys/public/images/orbit1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sys/public/images/orbit1_m.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sys/public/javascripts/html5shiv.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sys/public/javascripts/ie.js" afterPath="$PROJECT_DIR$/sys/public/javascripts/respond.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontEnd/gallery.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontEnd/widget/gallery.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontEnd/widget/gallery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontEnd/widget/goTop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontEnd/widget/rota_changetime.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sys/public/html/gallery.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sys/public/javascripts/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sys/public/javascripts/gallery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sys/public/javascripts/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sys/public/stylesheets/gallery.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontEnd/.gitignore" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/bower.json" afterPath="$PROJECT_DIR$/frontEnd/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/fis-conf.js" afterPath="$PROJECT_DIR$/frontEnd/fis-conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/guide_clienterror.html" afterPath="$PROJECT_DIR$/frontEnd/guide_clienterror.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/guide_foreword.html" afterPath="$PROJECT_DIR$/frontEnd/guide_foreword.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/guide_introduction.html" afterPath="$PROJECT_DIR$/frontEnd/guide_introduction.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/guide_join.html" afterPath="$PROJECT_DIR$/frontEnd/guide_join.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/guide_newclient.html" afterPath="$PROJECT_DIR$/frontEnd/guide_newclient.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/guide_paper.html" afterPath="$PROJECT_DIR$/frontEnd/guide_paper.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/guide_pcPrepare1.html" afterPath="$PROJECT_DIR$/frontEnd/guide_pcPrepare1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/guide_pcprepare2.html" afterPath="$PROJECT_DIR$/frontEnd/guide_pcprepare2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/guide_pcset1.html" afterPath="$PROJECT_DIR$/frontEnd/guide_pcset1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/guide_pcset2.html" afterPath="$PROJECT_DIR$/frontEnd/guide_pcset2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/guide_pcset3.html" afterPath="$PROJECT_DIR$/frontEnd/guide_pcset3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/guide_phonePrepare.html" afterPath="$PROJECT_DIR$/frontEnd/guide_phonePrepare.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/guide_phonerepair.html" afterPath="$PROJECT_DIR$/frontEnd/guide_phonerepair.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/guide_phoneset.html" afterPath="$PROJECT_DIR$/frontEnd/guide_phoneset.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/guide_pppoeerror.html" afterPath="$PROJECT_DIR$/frontEnd/guide_pppoeerror.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/guide_repair.html" afterPath="$PROJECT_DIR$/frontEnd/guide_repair.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/guide_wechat.html" afterPath="$PROJECT_DIR$/frontEnd/guide_wechat.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/index.html" afterPath="$PROJECT_DIR$/frontEnd/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/widget/orbit.css" afterPath="$PROJECT_DIR$/frontEnd/widget/orbit.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/join.html" afterPath="$PROJECT_DIR$/frontEnd/join.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/widget/footer.css" afterPath="$PROJECT_DIR$/frontEnd/widget/footer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/widget/general.css" afterPath="$PROJECT_DIR$/frontEnd/widget/general.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/widget/phone_nav.js" afterPath="$PROJECT_DIR$/frontEnd/widget/phone_nav.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/widget/video.js" afterPath="$PROJECT_DIR$/frontEnd/widget/video.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sys/public/html/guide_clienterror.html" afterPath="$PROJECT_DIR$/sys/public/html/guide_clienterror.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sys/public/html/guide_foreword.html" afterPath="$PROJECT_DIR$/sys/public/html/guide_foreword.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sys/public/html/guide_introduction.html" afterPath="$PROJECT_DIR$/sys/public/html/guide_introduction.html" />
@@ -33,7 +61,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sys/public/html/guide_wechat.html" afterPath="$PROJECT_DIR$/sys/public/html/guide_wechat.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sys/public/html/index.html" afterPath="$PROJECT_DIR$/sys/public/html/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sys/public/html/join.html" afterPath="$PROJECT_DIR$/sys/public/html/join.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sys/public/javascripts/app.js" afterPath="$PROJECT_DIR$/sys/public/javascripts/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sys/public/stylesheets/app.css" afterPath="$PROJECT_DIR$/sys/public/stylesheets/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sys/routes/index.js" afterPath="$PROJECT_DIR$/sys/routes/index.js" />
     </list>
     <ignored path="zsxxww_new.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,41 +86,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="guide_wechat.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sys/public/html/guide_wechat.html">
+      <file leaf-file-name="gallery.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontEnd/gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="380">
+              <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sys/public/html/index.html">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="join.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sys/public/html/join.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontEnd/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+            <state relative-caret-position="76">
+              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -99,18 +109,71 @@
       <file leaf-file-name="fis-conf.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontEnd/fis-conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="guide_pcset1.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sys/public/html/guide_pcset1.html">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="342">
+                <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="guide_phoneset.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontEnd/guide_phoneset.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-551">
-              <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="guide_repair.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontEnd/guide_repair.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="guide_wechat.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontEnd/guide_wechat.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontEnd/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10070">
+              <caret line="530" column="22" lean-forward="false" selection-start-line="530" selection-start-column="22" selection-end-line="530" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="join.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontEnd/join.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -121,12 +184,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="package_json" />
-        <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>window</find>
+      <find>time</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -134,42 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/widget/general.html" />
-        <option value="$PROJECT_DIR$/guide_markdown.html" />
-        <option value="$PROJECT_DIR$/guide_pcPrepare.html" />
-        <option value="$PROJECT_DIR$/guide.html" />
-        <option value="$PROJECT_DIR$/widget/test.js" />
-        <option value="$PROJECT_DIR$/widget/repair_nav.css" />
-        <option value="$PROJECT_DIR$/widget/rota.css" />
-        <option value="$PROJECT_DIR$/widget/footer.css" />
-        <option value="$PROJECT_DIR$/guide_repairnav.html" />
-        <option value="$PROJECT_DIR$/widget/video.js" />
-        <option value="$PROJECT_DIR$/widget/phone_nav.js" />
-        <option value="$PROJECT_DIR$/guide_wechat.html" />
-        <option value="$PROJECT_DIR$/guide_repair.html" />
-        <option value="$PROJECT_DIR$/guide_pppoeerror.html" />
-        <option value="$PROJECT_DIR$/guide_phoneset.html" />
-        <option value="$PROJECT_DIR$/guide_phonerepair.html" />
-        <option value="$PROJECT_DIR$/guide_phonePrepare.html" />
-        <option value="$PROJECT_DIR$/guide_pcset3.html" />
-        <option value="$PROJECT_DIR$/guide_pcset2.html" />
-        <option value="$PROJECT_DIR$/guide_pcset1.html" />
-        <option value="$PROJECT_DIR$/guide_pcprepare2.html" />
-        <option value="$PROJECT_DIR$/guide_pcPrepare1.html" />
-        <option value="$PROJECT_DIR$/guide_paper.html" />
-        <option value="$PROJECT_DIR$/guide_newclient.html" />
-        <option value="$PROJECT_DIR$/guide_join.html" />
-        <option value="$PROJECT_DIR$/guide_introduction.html" />
-        <option value="$PROJECT_DIR$/guide_clienterror.html" />
-        <option value="$PROJECT_DIR$/join.html" />
-        <option value="$PROJECT_DIR$/bower_components/html5shiv/dist/html5shiv.min.js" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/guide_foreword.html" />
-        <option value="$PROJECT_DIR$/widget/guide.css" />
-        <option value="$PROJECT_DIR$/widget/general.css" />
-        <option value="$PROJECT_DIR$/widget/orbit.css" />
-        <option value="$PROJECT_DIR$/public/app.js" />
-        <option value="$PROJECT_DIR$/public/ie.js" />
         <option value="$PROJECT_DIR$/public/app.css" />
         <option value="$PROJECT_DIR$/map.json" />
         <option value="$PROJECT_DIR$/index.html" />
@@ -178,13 +211,49 @@
         <option value="$PROJECT_DIR$/public/stylesheets/app.css" />
         <option value="$PROJECT_DIR$/fis-conf.js" />
         <option value="$PROJECT_DIR$/widget/header.css" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/frontEnd/index.html" />
         <option value="$PROJECT_DIR$/frontEnd/widget/orbit.css" />
         <option value="$PROJECT_DIR$/sys/public/html/guide_foreword.html" />
-        <option value="$PROJECT_DIR$/sys/public/html/index.html" />
-        <option value="$PROJECT_DIR$/frontEnd/fis-conf.js" />
         <option value="$PROJECT_DIR$/sys/public/html/guide_pcset1.html" />
+        <option value="$PROJECT_DIR$/sys/routes/index.js" />
+        <option value="$PROJECT_DIR$/frontEnd/widget/index.js" />
+        <option value="$PROJECT_DIR$/test/public/html/gallery.html" />
+        <option value="$PROJECT_DIR$/frontEnd/widget/general.css" />
+        <option value="$PROJECT_DIR$/frontEnd/gallery.html" />
+        <option value="$PROJECT_DIR$/frontEnd/widget/gallery.js" />
+        <option value="$PROJECT_DIR$/sys/public/html/gallery.html" />
+        <option value="$PROJECT_DIR$/sys/public/html/index.html" />
+        <option value="$PROJECT_DIR$/sys/public/html/join.html" />
+        <option value="$PROJECT_DIR$/sys/public/html/guide_repair.html" />
+        <option value="$PROJECT_DIR$/frontEnd/fis-conf.js" />
+        <option value="$PROJECT_DIR$/frontEnd/join.html" />
+        <option value="$PROJECT_DIR$/frontEnd/index.html" />
+        <option value="$PROJECT_DIR$/frontEnd/guide_wechat.html" />
+        <option value="$PROJECT_DIR$/frontEnd/guide_repair.html" />
+        <option value="$PROJECT_DIR$/frontEnd/guide_pppoeerror.html" />
+        <option value="$PROJECT_DIR$/frontEnd/guide_phoneset.html" />
+        <option value="$PROJECT_DIR$/frontEnd/guide_phonerepair.html" />
+        <option value="$PROJECT_DIR$/frontEnd/guide_phonePrepare.html" />
+        <option value="$PROJECT_DIR$/frontEnd/guide_pcset3.html" />
+        <option value="$PROJECT_DIR$/frontEnd/guide_pcset2.html" />
+        <option value="$PROJECT_DIR$/frontEnd/guide_pcset1.html" />
+        <option value="$PROJECT_DIR$/frontEnd/guide_pcprepare2.html" />
+        <option value="$PROJECT_DIR$/frontEnd/guide_pcPrepare1.html" />
+        <option value="$PROJECT_DIR$/frontEnd/guide_paper.html" />
+        <option value="$PROJECT_DIR$/frontEnd/guide_newclient.html" />
+        <option value="$PROJECT_DIR$/frontEnd/guide_introduction.html" />
+        <option value="$PROJECT_DIR$/frontEnd/guide_foreword.html" />
+        <option value="$PROJECT_DIR$/frontEnd/guide_clienterror.html" />
+        <option value="$PROJECT_DIR$/frontEnd/guide_join.html" />
+        <option value="$PROJECT_DIR$/frontEnd/widget/phone_nav.js" />
+        <option value="$PROJECT_DIR$/frontEnd/widget/rota_changetime.js" />
+        <option value="$PROJECT_DIR$/frontEnd/widget/video.js" />
+        <option value="$PROJECT_DIR$/frontEnd/widget/goTop.js" />
+        <option value="$PROJECT_DIR$/frontEnd/widget/gallery.css" />
+        <option value="$PROJECT_DIR$/frontEnd/widget/footer.css" />
+        <option value="$PROJECT_DIR$/frontEnd/bower.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/frontEnd/.gitignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -202,16 +271,6 @@
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -236,12 +295,6 @@
               <option name="myItemId" value="zsxxww_new" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zsxxww_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="zsxxww_new" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -258,46 +311,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zsxxww_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zsxxww_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zsxxww_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zsxxww_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -307,15 +320,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="D:/release" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -335,6 +348,12 @@
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
       <envs />
@@ -420,28 +439,54 @@
       <workItem from="1478325773715" duration="5825000" />
       <workItem from="1478338178816" duration="3632000" />
       <workItem from="1478367232470" duration="17064000" />
-      <workItem from="1478435731761" duration="11288000" />
+      <workItem from="1478435731761" duration="11658000" />
+      <workItem from="1478610228967" duration="987000" />
+      <workItem from="1478696898482" duration="1834000" />
+      <workItem from="1478709533039" duration="7331000" />
+      <workItem from="1478764221988" duration="602000" />
+      <workItem from="1478970411452" duration="7997000" />
+      <workItem from="1479017191906" duration="5011000" />
+      <workItem from="1479050575188" duration="607000" />
+      <workItem from="1479056439300" duration="3349000" />
+      <workItem from="1479144957806" duration="6677000" />
+      <workItem from="1479196506282" duration="142000" />
+      <workItem from="1479196855069" duration="477000" />
+      <workItem from="1479500799865" duration="45000" />
+      <workItem from="1479917213357" duration="8595000" />
+      <workItem from="1479932820194" duration="860000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144964000" />
+    <option name="totallyTimeSpent" value="189848000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1640625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16354166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15183246" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1486911" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -459,297 +504,376 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/guide_clienterror.html" />
-    <entry file="file://$PROJECT_DIR$/guide_wechat.html" />
-    <entry file="file://$PROJECT_DIR$/widget/general.css" />
-    <entry file="file://$PROJECT_DIR$/widget/orbit.css" />
-    <entry file="file://$PROJECT_DIR$/public/app.js" />
-    <entry file="file://$PROJECT_DIR$/public/ie.js" />
-    <entry file="file://$PROJECT_DIR$/public/app.css" />
-    <entry file="file://$PROJECT_DIR$/public/javascripts/app.js" />
-    <entry file="file://$PROJECT_DIR$/public/javascripts/ie.js" />
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/app.css" />
-    <entry file="file://$PROJECT_DIR$/widget/video.js" />
-    <entry file="file://$PROJECT_DIR$/widget/phone_nav.js" />
-    <entry file="file://$PROJECT_DIR$/widget/header.css" />
-    <entry file="file://$PROJECT_DIR$/widget/guide.css" />
-    <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/map.json" />
-    <entry file="file://$PROJECT_DIR$/fis-conf.js" />
-    <entry file="file://$PROJECT_DIR$/sys/bin/www">
+    <entry file="file://$PROJECT_DIR$/sys/public/html/guide_repair.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="-1824">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="304">
-            <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontEnd/widget/orbit.css">
+    <entry file="file://$PROJECT_DIR$/sys/public/html/guide_phoneset.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="-1824">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontEnd/widget/video.js">
+    <entry file="file://$PROJECT_DIR$/sys/public/html/guide_phonerepair.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="-2641">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontEnd/widget/phone_nav.js">
+    <entry file="file://$PROJECT_DIR$/sys/public/html/guide_phonePrepare.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="-1881">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sys/public/javascripts/app.js">
+    <entry file="file://$PROJECT_DIR$/sys/public/html/guide_pcset3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1938">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sys/public/html/guide_pcset2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3553">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sys/public/html/guide_pcset1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2128">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sys/public/html/guide_pcprepare2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1843">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sys/public/html/guide_pcPrepare1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1843">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sys/public/html/guide_paper.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2774">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sys/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sys/public/javascripts/ie.js">
+    <entry file="file://$PROJECT_DIR$/sys/public/stylesheets/gallery.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sys/public/stylesheets/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sys/public/html/guide_phonerepair.html">
+    <entry file="file://$PROJECT_DIR$/sys/public/javascripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="114">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sys/public/html/guide_phoneset.html">
+    <entry file="file://$PROJECT_DIR$/sys/public/html/guide_clienterror.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="3097">
+          <caret line="163" column="53" lean-forward="false" selection-start-line="163" selection-start-column="53" selection-end-line="163" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sys/public/html/guide_repair.html">
+    <entry file="file://$PROJECT_DIR$/sys/public/html/guide_foreword.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-1753">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sys/public/html/guide_introduction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1810">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sys/public/html/guide_join.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1848">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sys/public/html/guide_newclient.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2133">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/widget/video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/widget/rota_changetime.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/widget/phone_nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sys/public/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="507" column="60" lean-forward="true" selection-start-line="507" selection-start-column="60" selection-end-line="507" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sys/public/html/join.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1026">
+          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sys/public/html/guide_pppoeerror.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sys/public/html/guide_pcset3.html">
+    <entry file="file://$PROJECT_DIR$/sys/public/html/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/widget/goTop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/widget/gallery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sys/public/html/guide_paper.html">
+    <entry file="file://$PROJECT_DIR$/frontEnd/widget/header.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sys/public/html/guide_join.html">
+    <entry file="file://$PROJECT_DIR$/frontEnd/widget/gallery.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sys/public/html/guide_introduction.html">
+    <entry file="file://$PROJECT_DIR$/frontEnd/widget/footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/widget/orbit.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sys/public/html/guide_foreword.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1822">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/public/html/guide_wechat.html">
+    <entry file="file://$PROJECT_DIR$/frontEnd/widget/repair_nav.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sys/public/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/public/html/guide_foreword.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/public/javascripts/ie.js">
+    <entry file="file://$PROJECT_DIR$/frontEnd/widget/rota.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sys/public/html/join.html">
+    <entry file="file://$PROJECT_DIR$/frontEnd/bower_components/jquery/dist/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/public/html/guide_join.html">
+    <entry file="file://$PROJECT_DIR$/frontEnd/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sys/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="17" />
-          <folding />
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/public/html/guide_pcPrepare1.html">
+    <entry file="file://$PROJECT_DIR$/frontEnd/guide_join.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="130" column="26" selection-start-line="130" selection-start-column="26" selection-end-line="130" selection-end-column="26" />
+        <state relative-caret-position="2546">
+          <caret line="134" column="24" lean-forward="false" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/public/html/guide_phonePrepare.html">
+    <entry file="file://$PROJECT_DIR$/frontEnd/guide_pcprepare2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+        <state relative-caret-position="361">
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/public/html/guide_paper.html">
+    <entry file="file://$PROJECT_DIR$/frontEnd/guide_pcset2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="361">
+          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/public/javascripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/public/stylesheets/app.css">
+    <entry file="file://$PROJECT_DIR$/frontEnd/guide_phonePrepare.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/public/html/guide_pcset3.html">
+    <entry file="file://$PROJECT_DIR$/frontEnd/guide_phoneset.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontEnd/fis-conf.js">
+    <entry file="file://$PROJECT_DIR$/frontEnd/guide_repair.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/guide_wechat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontEnd/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        <state relative-caret-position="10070">
+          <caret line="530" column="22" lean-forward="false" selection-start-line="530" selection-start-column="22" selection-end-line="530" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/public/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys/public/html/guide_pcset1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-551">
-          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/public/html/guide_pcset1.html">
+    <entry file="file://$PROJECT_DIR$/frontEnd/join.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/fis-conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="342">
+            <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
           <folding />
         </state>
       </provider>
