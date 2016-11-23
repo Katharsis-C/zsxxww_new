@@ -1,5 +1,5 @@
 *.tif
 frontEnd/bower_components/*
 sys/node_modules/*
-.idea\*
+.idea/*
 .vscode/*
