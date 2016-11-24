@@ -23,6 +23,12 @@ fis.match('public/javascripts/app.js', {
 fis.match('public/stylesheets/app.css', {
     url: '/stylesheets/app.css'
 });
+fis.match('public/javascripts/gallery.js',{
+    url: '/javascripts/gallery.js'
+});
+fis.match('public/stylesheets/gallery.css',{
+    url: '/stylesheets/gallery.css'
+});
 
 
 //      对app.js的处理
@@ -45,12 +51,6 @@ fis.match('bower_components/bootstrap/dist/js/bootstrap.min.js', {
     release: '/public/javascripts/bootstrap.min.js'
     // packTo: '/public/javascripts/app.js',
     // packOrder:-9
-});
-fis.match('/widget/gallery.js', {
-    url: '/javascripts/gallery.js',
-    release: '/public/javascripts/gallery.js',
-    packTo: null,
-    requires: ['bower_components/jquery/dist/jquery.min.js']
 });
 
 //       对ie加载文件的处理
@@ -83,11 +83,6 @@ fis.match('bower_components/font-awesome/css/font-awesome.min.css', {
     url: '/stylesheets/app.css',
     release: '/public/stylesheets/app.css',
     packTo: '/public/stylesheets/app.css'
-});
-fis.match('/widget/gallery.css', {
-    url: '/stylesheets/gallery.css',
-    packTo: null,
-    release: '/public/stylesheets/gallery.css'
 });
 
 //     对图片的处理
@@ -129,4 +124,21 @@ fis.match('bower_components/bootstrap/dist/css/bootstrap.min.css.map', {
     release: '/public/stylesheets/$0'
 });
 
-
+//   gallery文件的处理
+fis.match('widget/page*.css', {
+    url: '/stylesheets/gallery.css',
+    release: '/public/stylesheets/gallery.css',
+    packTo: '/public/stylesheets/gallery.css'
+});
+fis.match('widget/fullPage.js',{
+    url: '/javascripts/gallery.js',
+    release: '/public/javascripts/gallery.js',
+    packTo: '/public/javascripts/gallery.js',
+    requires:['bower_components/jquery/dist/jquery.min.js']
+});
+fis.match('widget/util.js',{
+    url: '/javascripts/gallery.js',
+    release: '/public/javascripts/gallery.js',
+    packTo: '/public/javascripts/gallery.js',
+    requires:['bower_components/jquery/dist/jquery.min.js']
+});

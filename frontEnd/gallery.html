@@ -8,7 +8,10 @@
 
     <link rel="shortcut icon" href="images/favicon.ico">
 
-    <link href="widget/gallery.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="widget/pageGeneral.css">
+    <link rel="stylesheet" type="text/css" href="widget/page0.css">
+    <link rel="stylesheet" type="text/css" href="widget/page1.css">
+    <link rel="stylesheet" type="text/css" href="widget/page20.css">
 
     <!--[if lt IE 9]>
     <script src="bower_components/html5shiv/dist/html5shiv.min.js"></script>
@@ -17,7 +20,28 @@
 </head>
 <body>
 
+<div class="page hide" id="page1">
+    <div class="top-img">
+        <img src="images/camera.png">
+    </div>
+    <div class="wordStyle1">
+
+    </div>
+</div>
+
+<div class="page" id="page20">
+    <div class="full-img">
+        <img src="images/bridge.png">
+    </div>
+    <div class="word">
+        <p>和他们</p>
+        <p>共同度过的日子</p>
+    </div>
+</div>
+
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="widget/gallery.js"></script>
+<script src="widget/util.js"></script>
+<script src="widget/fullPage.js"></script>
+
 </body>
 </html>
