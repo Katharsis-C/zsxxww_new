@@ -1,0 +1,14 @@
+#page1 {
+    text-align: center;
+
+    background-color: #1e1e1e;
+}
+
+#page1 .word{
+    position: relative;
+    top: 10px;
+}
+
+#page1 p{
+    letter-spacing: .5em;
+}

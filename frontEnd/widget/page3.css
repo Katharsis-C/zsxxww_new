@@ -1,0 +1,22 @@
+#page3{
+    background-color: #1e1e1e;
+}
+
+#page3 .word{
+    padding: 20px 30px;
+
+    letter-spacing: .3em;
+}
+
+#page3 .word p:first-child{
+    margin-bottom: 100px;
+}
+
+/*#page3 .word span:last-child{*/
+    /*display: inline-block;*/
+/*}*/
+
+#page3 .word p span:first-child{
+    font-size: 30px;
+    letter-spacing: .4em;
+}
