@@ -1,0 +1,18 @@
+#page8 .word{
+    position: absolute;
+    top:0;
+}
+
+#page8 .word p{
+    margin-left: 80px;
+    margin-top: 30px;
+    letter-spacing: .5em;
+}
+
+#page8 .word p:first-child{
+    margin-left: 50px;
+}
+
+#page8 .word p:last-child{
+    margin-left: 120px;
+}

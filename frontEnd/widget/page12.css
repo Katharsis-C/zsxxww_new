@@ -1,0 +1,20 @@
+#page12 .word{
+    position: absolute;
+    top:0;
+
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+
+#page12 .word p{
+    display: inline-block;
+
+    line-height: 3.5em;
+    letter-spacing: .4em;
+    vertical-align: top;
+
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    writing-mode: vertical-lr;
+}

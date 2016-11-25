@@ -1,0 +1,17 @@
+#page7 {
+    background-color: rgba(0,0,0,.6);
+}
+
+#page7 img{
+    position: relative;
+    z-index: -1;
+}
+
+#page7 .word {
+    position: absolute;
+    bottom: 75px;
+}
+
+#page7 p{
+    margin-top: 7px;
+}

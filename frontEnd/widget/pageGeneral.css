@@ -10,7 +10,13 @@ body{
     color: #fff;
 }
 
+p{
+    margin:0;
+    margin-top: 20px;
+}
+
 h1,h2,h3,h4,h5,h6{
+    margin:0;
     font-weight: 500;
 }
 
@@ -18,7 +24,9 @@ h2{
     font-size: 29px;
 }
 
-
+h6{
+    font-size: 13px;
+}
 
 .hide{
     display: none;
@@ -42,6 +50,18 @@ h2{
 
 .full-img img{
     /*width: 100%;*/
+}
+
+.middle-img{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.middle-img img{
+    width: 100%;
 }
 
 .top-img img{

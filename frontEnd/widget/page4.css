@@ -1,18 +1,26 @@
 
 #page4 .word{
     /*padding: 20px 15px 0 20px;*/
+    padding-right: 30px;
 
     letter-spacing: .3em;
 }
 
 #page4 .word > p:first-child{
     margin-bottom: 50px;
+    margin-left:0;
 }
 
-#page4 h2{
+#page4 h6{
     margin-bottom: 5px;
 }
 
 #page4 p{
     margin-top: 0;
+    margin-left: 33px;
+    margin-bottom: 10px;
+}
+
+#page4 span{
+    font-size: 1.4em;
 }

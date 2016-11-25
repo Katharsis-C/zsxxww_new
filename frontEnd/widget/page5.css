@@ -5,16 +5,19 @@
     letter-spacing: .3em;
 }
 
-#page5 .word p:nth-child(even){
-    margin-bottom: 10px;
-    font-size: 20px;
+#page5 p:first-child{
+    margin-bottom: 70px;
 }
 
-#page5 .word p:nth-child(odd){
-    margin-top: 0;
+#page5 p{
+    margin-bottom: 40px;
 }
 
-#page5 .word > p:first-child{
-    margin-top: 16px;
-    margin-bottom: 50px;
+#page5 p:last-child{
+    margin-bottom: 0;
+    margin-left: 40px;
+}
+
+#page5 p span{
+    font-size: 1.7em;
 }

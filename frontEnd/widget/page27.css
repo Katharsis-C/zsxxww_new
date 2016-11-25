@@ -1,0 +1,17 @@
+#page27 .word{
+    position: fixed;
+    width: 100%;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#page27 h2{
+    margin-left: 20px;
+}
+
+#page27 p{
+    text-align: right;
+    margin:0;
+    margin-right: 50px;
+}

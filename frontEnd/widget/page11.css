@@ -1,0 +1,24 @@
+#page11 .word {
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    min-height: 50%;
+    padding: 0;
+    padding-bottom: 50px;
+    text-align: center;
+
+    background: rgba(0,0,0,.5);
+}
+
+#page11 .word p{
+    display: inline-block;
+
+    line-height: 3.5em;
+    letter-spacing: .4em;
+    vertical-align: top;
+
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    writing-mode: vertical-lr;
+}

@@ -1,0 +1,21 @@
+#page31 .word{
+    position: fixed;
+    width: 100%;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#page31 p{
+    margin-top: 0;
+    margin-left: 80px;
+}
+
+#page31 p:first-child{
+    margin-left: 20px;
+}
+
+#page31 p:last-child{
+    margin-left: 130px;
+}
+

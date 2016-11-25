@@ -1,0 +1,9 @@
+#page21 .photo-group{
+    width: 90%;
+    margin:70px auto 0 auto;
+}
+
+#page21 img{
+    display: inline-block;
+    width: 49%;
+}

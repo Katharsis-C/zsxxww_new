@@ -1,0 +1,8 @@
+#page6 h2{
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+#page6 .word p:last-child{
+    margin-top: 40px;
+}
