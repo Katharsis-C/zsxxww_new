@@ -1,0 +1,18 @@
+
+#page4 .word{
+    /*padding: 20px 15px 0 20px;*/
+
+    letter-spacing: .3em;
+}
+
+#page4 .word > p:first-child{
+    margin-bottom: 50px;
+}
+
+#page4 h2{
+    margin-bottom: 5px;
+}
+
+#page4 p{
+    margin-top: 0;
+}

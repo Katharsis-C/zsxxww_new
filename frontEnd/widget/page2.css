@@ -1,9 +1,6 @@
-#page2 {
-    background-color: #1e1e1e;
-}
 
 #page2 .word{
-    padding: 15px;
+    /*padding: 15px;*/
 
     letter-spacing: .3em;
     line-height: 1.8em;

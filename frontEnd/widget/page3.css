@@ -1,15 +1,12 @@
-#page3{
-    background-color: #1e1e1e;
-}
 
 #page3 .word{
-    padding: 20px 30px;
+    /*padding: 20px 20px 0 30px;*/
 
     letter-spacing: .3em;
 }
 
-#page3 .word p:first-child{
-    margin-bottom: 100px;
+#page3 .word > p:first-child{
+    margin-bottom: 50px;
 }
 
 /*#page3 .word span:last-child{*/

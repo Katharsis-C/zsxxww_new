@@ -1,0 +1,20 @@
+
+#page5 .word{
+    padding: 20px 15px 0 20px;
+
+    letter-spacing: .3em;
+}
+
+#page5 .word p:nth-child(even){
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#page5 .word p:nth-child(odd){
+    margin-top: 0;
+}
+
+#page5 .word > p:first-child{
+    margin-top: 16px;
+    margin-bottom: 50px;
+}
