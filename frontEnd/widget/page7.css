@@ -1,5 +1,9 @@
 #page7 {
-    background-color: rgba(0,0,0,.6);
+    z-index: 7;
+}
+
+#page7 .top-img{
+    background-color: rgba(0,0,0,.5);
 }
 
 #page7 img{

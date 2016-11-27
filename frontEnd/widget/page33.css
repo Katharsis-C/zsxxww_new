@@ -1,24 +1,16 @@
+#page33{
+    z-index: 33;
+}
+
 #page33 .word{
     position: absolute;
     bottom: 0;
 
     width: 100%;
-    padding: 5% 15% 10% 15%;
+    padding: 5% 4% 10% 4%;
 
     color: #fff;
     letter-spacing: .5em;
 
     background: rgba(0,0,0,.5);
-}
-
-#page33 p:first-child{
-    margin-bottom: 50px;
-}
-
-#page33 p{
-    margin-top:.5em;
-}
-
-#page33 p:last-child{
-    margin-bottom: 20px;
 }

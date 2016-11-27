@@ -1,3 +1,7 @@
+#page30{
+    z-index: 30;
+}
+
 #page30 .word{
     position: fixed;
     width: 100%;
@@ -7,6 +11,15 @@
 }
 
 #page30 p{
-    text-align: right;
-    margin-right: 50px;
+    margin-top: 0;
+    margin-left: 80px;
 }
+
+#page30 p:first-child{
+    margin-left: 20px;
+}
+
+#page30 p:last-child{
+    margin-left: 130px;
+}
+

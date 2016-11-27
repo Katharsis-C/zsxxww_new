@@ -1,4 +1,21 @@
-#page25 p{
-    margin-top: 40px;
+#page25{
+    z-index: 25;
+}
+
+#page25 .word{
+    position: fixed;
+    width: 100%;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#page25 h2{
     margin-left: 20px;
+}
+
+#page25 p{
+    text-align: right;
+    margin:0;
+    margin-right: 50px;
 }

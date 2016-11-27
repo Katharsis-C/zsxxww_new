@@ -1,3 +1,7 @@
+#page26{
+    z-index: 26;
+}
+
 #page26 .word{
     position: fixed;
     width: 100%;

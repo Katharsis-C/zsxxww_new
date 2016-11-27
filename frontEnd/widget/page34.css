@@ -1,12 +1,11 @@
+#page34{
+    z-index: 34;
+}
+
 #page34 .word{
     position: absolute;
-    bottom: 0;
-
+    bottom: 50px;
+    letter-spacing: 1em;
     width: 100%;
-    padding: 5% 4% 10% 4%;
-
-    color: #fff;
-    letter-spacing: .5em;
-
-    background: rgba(0,0,0,.5);
+    text-align: center;
 }

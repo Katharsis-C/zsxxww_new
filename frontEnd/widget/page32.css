@@ -1,17 +1,28 @@
-#page32 .word{
-    position: fixed;
-    width: 100%;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+#page32{
+    z-index: 32;
 }
 
-#page32 p{
-    text-align: right;
-    margin-top: 0;
+#page32 .word{
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    padding: 5% 15% 10% 15%;
+
+    color: #fff;
+    letter-spacing: .5em;
+
+    background: rgba(0,0,0,.5);
 }
 
 #page32 p:first-child{
-    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
+#page32 p{
+    margin-top:.5em;
+}
+
+#page32 p:last-child{
+    margin-bottom: 20px;
+}

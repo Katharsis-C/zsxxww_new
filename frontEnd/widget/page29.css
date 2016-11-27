@@ -1,3 +1,7 @@
+#page29{
+    z-index: 29;
+}
+
 #page29 .word{
     position: fixed;
     width: 100%;

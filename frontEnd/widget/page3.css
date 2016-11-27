@@ -1,4 +1,8 @@
 
+#page3{
+    z-index: 3;
+}
+
 #page3 .word{
     /*padding: 20px 20px 0 30px;*/
 
