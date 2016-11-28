@@ -27,26 +27,29 @@
 }
 
 #page14 {
-    animation: page14 8s linear;
+    animation: page14 11s linear;
     animation-fill-mode: forwards;
 }
 
 #page14 p {
     opacity: 0;
-    transition: opacity 2s ease 3s;
+    transition: opacity 2s ease 2s;
 }
 
-#page14 h2 {
-    opacity: 0;
-    transition: opacity 2s ease 1s;
+#page14 p:nth-child(2){
+    transition: opacity 2s ease 4s;
+}
+
+#page14 p:nth-child(3){
+    transition: opacity 2s ease 6s;
+}
+
+#page14 p:nth-child(4){
+    transition: opacity 2s ease 8s;
 }
 
 #page14[class~='active'] {
     z-index: 1;
-}
-
-#page14[class~='active'] h2 {
-    opacity: 1;
 }
 
 #page14[class~='active'] p {

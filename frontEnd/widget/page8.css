@@ -28,21 +28,22 @@
 
 #page8 p {
     opacity: 0;
-    transition: opacity 2s ease 3s;
+    transition: opacity 2s ease 4s;
 }
 
-#page8 h2 {
-    opacity: 0;
-    transition: opacity 2s ease 1s;
+#page8 p:first-child{
+    transition: opacity 2s ease 2s;
 }
+
+#page8 p:last-child{
+    transition: opacity 2s ease 6s;
+}
+
 
 #page8[class~='active'] {
     z-index: 1;
 }
 
-#page8[class~='active'] h2 {
-    opacity: 1;
-}
 
 #page8[class~='active'] p {
     opacity: 1;

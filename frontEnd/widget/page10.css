@@ -28,27 +28,23 @@
 }
 
 #page10 {
-    animation: page10 8s linear;
+    animation: page10 7s linear;
     animation-fill-mode: forwards;
 }
 
 #page10 p {
     opacity: 0;
-    transition: opacity 2s ease 3s;
+    transition: opacity 2s ease 2s;
 }
 
-#page10 h2 {
-    opacity: 0;
-    transition: opacity 2s ease 1s;
+#page10 p:last-child{
+    transition: opacity 2s ease 4s;
 }
 
 #page10[class~='active'] {
     z-index: 1;
 }
 
-#page10[class~='active'] h2 {
-    opacity: 1;
-}
 
 #page10[class~='active'] p {
     opacity: 1;

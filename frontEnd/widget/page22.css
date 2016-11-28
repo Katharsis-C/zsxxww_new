@@ -8,26 +8,29 @@
 }
 
 #page22 {
-    animation: page22 8s linear;
+    animation: page22 11s linear;
     animation-fill-mode: forwards;
 }
 
 #page22 p {
     opacity: 0;
-    transition: opacity 2s ease 3s;
+    transition: opacity 2s ease 2s;
 }
 
-#page22 h2 {
-    opacity: 0;
-    transition: opacity 2s ease 1s;
+#page22 p:nth-child(2){
+    transition: opacity 2s ease 4s;
+}
+
+#page22 p:nth-child(3){
+    transition: opacity 2s ease 6s;
+}
+
+#page22 p:nth-child(4){
+    transition: opacity 2s ease 8s;
 }
 
 #page22[class~='active'] {
     z-index: 1;
-}
-
-#page22[class~='active'] h2 {
-    opacity: 1;
 }
 
 #page22[class~='active'] p {

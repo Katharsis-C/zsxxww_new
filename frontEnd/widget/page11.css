@@ -28,26 +28,18 @@
 }
 
 #page11 {
-    animation: page11 8s linear;
+    animation: page11 5s linear;
     animation-fill-mode: forwards;
 }
 
 #page11 p {
     opacity: 0;
-    transition: opacity 2s ease 3s;
+    transition: opacity 2s ease 2s;
 }
 
-#page11 h2 {
-    opacity: 0;
-    transition: opacity 2s ease 1s;
-}
 
 #page11[class~='active'] {
     z-index: 1;
-}
-
-#page11[class~='active'] h2 {
-    opacity: 1;
 }
 
 #page11[class~='active'] p {

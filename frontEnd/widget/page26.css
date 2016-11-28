@@ -21,18 +21,18 @@
 }
 
 #page26 {
-    animation: page26 8s linear;
+    animation: page26 5s linear;
     animation-fill-mode: forwards;
-}
-
-#page26 p {
-    opacity: 0;
-    transition: opacity 2s ease 3s;
 }
 
 #page26 h2 {
     opacity: 0;
-    transition: opacity 2s ease 1s;
+    transition: opacity 2s ease 2s;
+}
+
+#page26 p{
+    opacity: 0;
+    transition: opacity 2s ease 3s;
 }
 
 #page26[class~='active'] {

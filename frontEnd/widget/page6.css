@@ -18,12 +18,16 @@
 
 #page6 p {
     opacity: 0;
-    transition: opacity 2s ease 3s;
+    transition: opacity 2s ease 4s;
+}
+
+#page6 p:last-child{
+    transition: opacity 2s ease 6s;
 }
 
 #page6 h2 {
     opacity: 0;
-    transition: opacity 2s ease 1s;
+    transition: opacity 2s ease 2s;
 }
 
 #page6[class~='active'] {

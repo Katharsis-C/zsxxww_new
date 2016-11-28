@@ -8,26 +8,30 @@
 }
 
 #page15 {
-    animation: page15 8s linear;
+    animation: page15 11s linear;
     animation-fill-mode: forwards;
 }
 
+
 #page15 p {
     opacity: 0;
-    transition: opacity 2s ease 3s;
+    transition: opacity 2s ease 2s;
 }
 
-#page15 h2 {
-    opacity: 0;
-    transition: opacity 2s ease 1s;
+#page15 p:nth-child(2){
+    transition: opacity 2s ease 4s;
+}
+
+#page15 p:nth-child(3){
+    transition: opacity 2s ease 6s;
+}
+
+#page15 p:nth-child(4){
+    transition: opacity 2s ease 8s;
 }
 
 #page15[class~='active'] {
     z-index: 1;
-}
-
-#page15[class~='active'] h2 {
-    opacity: 1;
 }
 
 #page15[class~='active'] p {

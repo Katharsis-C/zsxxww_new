@@ -11,8 +11,13 @@
 }
 
 #page34 {
-    animation: page34 8s linear;
+    animation: page34 6s linear;
     animation-fill-mode: forwards;
+}
+
+#page34 img{
+    opacity: 0;
+    transition: opacity 2s ease 2s;
 }
 
 #page34 p {
@@ -20,20 +25,15 @@
     transition: opacity 2s ease 3s;
 }
 
-#page34 h2 {
-    opacity: 0;
-    transition: opacity 2s ease 1s;
-}
-
 #page34[class~='active'] {
     z-index: 1;
 }
 
-#page34[class~='active'] h2 {
+#page34[class~='active'] p {
     opacity: 1;
 }
 
-#page34[class~='active'] p {
+#page34[class~='active'] img {
     opacity: 1;
 }
 

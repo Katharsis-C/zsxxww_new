@@ -8,27 +8,23 @@
 }
 
 #page17 {
-    animation: page17 8s linear;
+    animation: page17 7s linear;
     animation-fill-mode: forwards;
 }
 
 #page17 p {
     opacity: 0;
-    transition: opacity 2s ease 3s;
+    transition: opacity 2s ease 2s;
 }
 
-#page17 h2 {
-    opacity: 0;
-    transition: opacity 2s ease 1s;
+#page17 p:last-child{
+    transition: opacity 2s ease 4s;
 }
 
 #page17[class~='active'] {
     z-index: 1;
 }
 
-#page17[class~='active'] h2 {
-    opacity: 1;
-}
 
 #page17[class~='active'] p {
     opacity: 1;

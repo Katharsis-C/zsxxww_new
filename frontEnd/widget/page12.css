@@ -24,27 +24,24 @@
 }
 
 #page12 {
-    animation: page12 8s linear;
+    animation: page12 7s linear;
     animation-fill-mode: forwards;
 }
 
 #page12 p {
     opacity: 0;
-    transition: opacity 2s ease 3s;
+    transition: opacity 2s ease 4s;
 }
 
-#page12 h2 {
-    opacity: 0;
-    transition: opacity 2s ease 1s;
+#page12 p:last-child{
+    transition: opacity 2s ease 2s;
 }
+
 
 #page12[class~='active'] {
     z-index: 1;
 }
 
-#page12[class~='active'] h2 {
-    opacity: 1;
-}
 
 #page12[class~='active'] p {
     opacity: 1;

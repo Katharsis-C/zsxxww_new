@@ -14,20 +14,19 @@
 
 #page16 p {
     opacity: 0;
-    transition: opacity 2s ease 3s;
+    transition: opacity 2s ease 4s;
 }
 
-#page16 h2 {
-    opacity: 0;
-    transition: opacity 2s ease 1s;
+#page16 p:first-child{
+    transition: opacity 2s ease 2s;
+}
+
+#page16 p:last-child{
+    transition: opacity 2s ease 6s;
 }
 
 #page16[class~='active'] {
     z-index: 1;
-}
-
-#page16[class~='active'] h2 {
-    opacity: 1;
 }
 
 #page16[class~='active'] p {
