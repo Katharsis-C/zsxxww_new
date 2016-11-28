@@ -6,3 +6,42 @@
     margin-top: 40px;
     margin-left: 20px;
 }
+
+#page15 {
+    animation: page15 8s linear;
+    animation-fill-mode: forwards;
+}
+
+#page15 p {
+    opacity: 0;
+    transition: opacity 2s ease 3s;
+}
+
+#page15 h2 {
+    opacity: 0;
+    transition: opacity 2s ease 1s;
+}
+
+#page15[class~='active'] {
+    z-index: 1;
+}
+
+#page15[class~='active'] h2 {
+    opacity: 1;
+}
+
+#page15[class~='active'] p {
+    opacity: 1;
+}
+
+@keyframes page15 {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}

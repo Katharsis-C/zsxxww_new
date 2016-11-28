@@ -6,3 +6,42 @@
     margin-top: 40px;
     margin-left: 20px;
 }
+
+#page17 {
+    animation: page17 8s linear;
+    animation-fill-mode: forwards;
+}
+
+#page17 p {
+    opacity: 0;
+    transition: opacity 2s ease 3s;
+}
+
+#page17 h2 {
+    opacity: 0;
+    transition: opacity 2s ease 1s;
+}
+
+#page17[class~='active'] {
+    z-index: 1;
+}
+
+#page17[class~='active'] h2 {
+    opacity: 1;
+}
+
+#page17[class~='active'] p {
+    opacity: 1;
+}
+
+@keyframes page17 {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}

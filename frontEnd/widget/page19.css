@@ -6,3 +6,42 @@
     margin-top: 40px;
     margin-left: 20px;
 }
+
+#page19 {
+    animation: page19 8s linear;
+    animation-fill-mode: forwards;
+}
+
+#page19 p {
+    opacity: 0;
+    transition: opacity 2s ease 3s;
+}
+
+#page19 h2 {
+    opacity: 0;
+    transition: opacity 2s ease 1s;
+}
+
+#page19[class~='active'] {
+    z-index: 1;
+}
+
+#page19[class~='active'] h2 {
+    opacity: 1;
+}
+
+#page19[class~='active'] p {
+    opacity: 1;
+}
+
+@keyframes page19 {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}

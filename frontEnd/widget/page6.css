@@ -10,3 +10,42 @@
 #page6 .word p:last-child{
     margin-top: 40px;
 }
+
+#page6 {
+    animation: page6 8s linear;
+    animation-fill-mode: forwards;
+}
+
+#page6 p {
+    opacity: 0;
+    transition: opacity 2s ease 3s;
+}
+
+#page6 h2 {
+    opacity: 0;
+    transition: opacity 2s ease 1s;
+}
+
+#page6[class~='active'] {
+    z-index: 1;
+}
+
+#page6[class~='active'] h2 {
+    opacity: 1;
+}
+
+#page6[class~='active'] p {
+    opacity: 1;
+}
+
+@keyframes page6 {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}

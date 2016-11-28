@@ -19,3 +19,42 @@
     margin:0;
     margin-right: 50px;
 }
+
+#page25 {
+    animation: page25 8s linear;
+    animation-fill-mode: forwards;
+}
+
+#page25 p {
+    opacity: 0;
+    transition: opacity 2s ease 3s;
+}
+
+#page25 h2 {
+    opacity: 0;
+    transition: opacity 2s ease 1s;
+}
+
+#page25[class~='active'] {
+    z-index: 1;
+}
+
+#page25[class~='active'] h2 {
+    opacity: 1;
+}
+
+#page25[class~='active'] p {
+    opacity: 1;
+}
+
+@keyframes page25 {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -14,3 +14,42 @@
     text-align: right;
     margin-right: 50px;
 }
+
+#page28 {
+    animation: page28 8s linear;
+    animation-fill-mode: forwards;
+}
+
+#page28 p {
+    opacity: 0;
+    transition: opacity 2s ease 3s;
+}
+
+#page28 h2 {
+    opacity: 0;
+    transition: opacity 2s ease 1s;
+}
+
+#page28[class~='active'] {
+    z-index: 1;
+}
+
+#page28[class~='active'] h2 {
+    opacity: 1;
+}
+
+#page28[class~='active'] p {
+    opacity: 1;
+}
+
+@keyframes page28 {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}

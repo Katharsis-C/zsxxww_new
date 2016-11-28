@@ -21,3 +21,42 @@
     font-size: 30px;
     letter-spacing: .4em;
 }
+
+#page3 {
+    animation: page3 8s linear;
+    animation-fill-mode: forwards;
+}
+
+#page3 p {
+    opacity: 0;
+    transition: opacity 2s ease 3s;
+}
+
+#page3 h2 {
+    opacity: 0;
+    transition: opacity 2s ease 1s;
+}
+
+#page3[class~='active'] {
+    z-index: 1;
+}
+
+#page3[class~='active'] h2 {
+    opacity: 1;
+}
+
+#page3[class~='active'] p {
+    opacity: 1;
+}
+
+@keyframes page3 {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -20,3 +20,42 @@
 #page8 .word p:last-child{
     margin-left: 120px;
 }
+
+#page8 {
+    animation: page8 8s linear;
+    animation-fill-mode: forwards;
+}
+
+#page8 p {
+    opacity: 0;
+    transition: opacity 2s ease 3s;
+}
+
+#page8 h2 {
+    opacity: 0;
+    transition: opacity 2s ease 1s;
+}
+
+#page8[class~='active'] {
+    z-index: 1;
+}
+
+#page8[class~='active'] h2 {
+    opacity: 1;
+}
+
+#page8[class~='active'] p {
+    opacity: 1;
+}
+
+@keyframes page8 {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}

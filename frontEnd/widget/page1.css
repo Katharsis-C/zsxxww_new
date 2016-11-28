@@ -3,11 +3,50 @@
     z-index: 1;
 }
 
-#page1 .word{
+#page1 .word {
     position: relative;
     top: 10px;
 }
 
-#page1 p{
+#page1 p {
     letter-spacing: .5em;
+}
+
+#page1 {
+    animation: page1 8s linear;
+    animation-fill-mode: forwards;
+}
+
+#page1 p {
+    opacity: 0;
+    transition: opacity 2s ease 3s;
+}
+
+#page1 h2 {
+    opacity: 0;
+    transition: opacity 2s ease 1s;
+}
+
+#page1[class~='active'] {
+    z-index: 1;
+}
+
+#page1[class~='active'] h2 {
+    opacity: 1;
+}
+
+#page1[class~='active'] p {
+    opacity: 1;
+}
+
+@keyframes page1 {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
 }

@@ -11,3 +11,42 @@
     display: inline-block;
     width: 49%;
 }
+
+#page21 {
+    animation: page21 8s linear;
+    animation-fill-mode: forwards;
+}
+
+#page21 p {
+    opacity: 0;
+    transition: opacity 2s ease 3s;
+}
+
+#page21 h2 {
+    opacity: 0;
+    transition: opacity 2s ease 1s;
+}
+
+#page21[class~='active'] {
+    z-index: 1;
+}
+
+#page21[class~='active'] h2 {
+    opacity: 1;
+}
+
+#page21[class~='active'] p {
+    opacity: 1;
+}
+
+@keyframes page21 {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -6,3 +6,42 @@
     margin-top: 40px;
     margin-left: 20px;
 }
+
+#page23 {
+    animation: page23 8s linear;
+    animation-fill-mode: forwards;
+}
+
+#page23 p {
+    opacity: 0;
+    transition: opacity 2s ease 3s;
+}
+
+#page23 h2 {
+    opacity: 0;
+    transition: opacity 2s ease 1s;
+}
+
+#page23[class~='active'] {
+    z-index: 1;
+}
+
+#page23[class~='active'] h2 {
+    opacity: 1;
+}
+
+#page23[class~='active'] p {
+    opacity: 1;
+}
+
+@keyframes page23 {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -14,3 +14,42 @@
 
     background: rgba(0,0,0,.5);
 }
+
+#page20 {
+    animation: page20 8s linear;
+    animation-fill-mode: forwards;
+}
+
+#page20 p {
+    opacity: 0;
+    transition: opacity 2s ease 3s;
+}
+
+#page20 h2 {
+    opacity: 0;
+    transition: opacity 2s ease 1s;
+}
+
+#page20[class~='active'] {
+    z-index: 1;
+}
+
+#page20[class~='active'] h2 {
+    opacity: 1;
+}
+
+#page20[class~='active'] p {
+    opacity: 1;
+}
+
+@keyframes page20 {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}

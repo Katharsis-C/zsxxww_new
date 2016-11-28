@@ -6,3 +6,42 @@
     margin-top: 40px;
     margin-left: 20px;
 }
+
+#page24 {
+    animation: page24 8s linear;
+    animation-fill-mode: forwards;
+}
+
+#page24 p {
+    opacity: 0;
+    transition: opacity 2s ease 3s;
+}
+
+#page24 h2 {
+    opacity: 0;
+    transition: opacity 2s ease 1s;
+}
+
+#page24[class~='active'] {
+    z-index: 1;
+}
+
+#page24[class~='active'] h2 {
+    opacity: 1;
+}
+
+#page24[class~='active'] p {
+    opacity: 1;
+}
+
+@keyframes page24 {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}

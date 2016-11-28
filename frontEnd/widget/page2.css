@@ -16,3 +16,45 @@
     text-align: right;
 }
 
+#page2 {
+    animation: page2 8s linear;
+    animation-fill-mode: forwards;
+}
+
+#page2 p{
+    opacity: 0;
+    transition: opacity 2s ease 3s;
+}
+
+#page2 p:last-child{
+    transition: opacity 2s ease 5s;
+}
+
+#page2 h2{
+    opacity: 0;
+    transition: opacity 2s ease 1s;
+}
+
+#page2[class~='active']{
+    z-index: 1;
+}
+
+#page2[class~='active'] h2{
+    opacity: 1;
+}
+
+#page2[class~='active'] p{
+    opacity: 1;
+}
+
+@keyframes page2 {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -26,3 +26,42 @@
 #page32 p:last-child{
     margin-bottom: 20px;
 }
+
+#page32 {
+    animation: page32 8s linear;
+    animation-fill-mode: forwards;
+}
+
+#page32 p {
+    opacity: 0;
+    transition: opacity 2s ease 3s;
+}
+
+#page32 h2 {
+    opacity: 0;
+    transition: opacity 2s ease 1s;
+}
+
+#page32[class~='active'] {
+    z-index: 1;
+}
+
+#page32[class~='active'] h2 {
+    opacity: 1;
+}
+
+#page32[class~='active'] p {
+    opacity: 1;
+}
+
+@keyframes page32 {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}

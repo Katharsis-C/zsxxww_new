@@ -25,3 +25,42 @@
     -ms-writing-mode: tb-lr;
     writing-mode: vertical-lr;
 }
+
+#page14 {
+    animation: page14 8s linear;
+    animation-fill-mode: forwards;
+}
+
+#page14 p {
+    opacity: 0;
+    transition: opacity 2s ease 3s;
+}
+
+#page14 h2 {
+    opacity: 0;
+    transition: opacity 2s ease 1s;
+}
+
+#page14[class~='active'] {
+    z-index: 1;
+}
+
+#page14[class~='active'] h2 {
+    opacity: 1;
+}
+
+#page14[class~='active'] p {
+    opacity: 1;
+}
+
+@keyframes page14 {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}

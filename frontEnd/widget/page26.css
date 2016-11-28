@@ -19,3 +19,42 @@
     margin:0;
     margin-right: 50px;
 }
+
+#page26 {
+    animation: page26 8s linear;
+    animation-fill-mode: forwards;
+}
+
+#page26 p {
+    opacity: 0;
+    transition: opacity 2s ease 3s;
+}
+
+#page26 h2 {
+    opacity: 0;
+    transition: opacity 2s ease 1s;
+}
+
+#page26[class~='active'] {
+    z-index: 1;
+}
+
+#page26[class~='active'] h2 {
+    opacity: 1;
+}
+
+#page26[class~='active'] p {
+    opacity: 1;
+}
+
+@keyframes page26 {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}

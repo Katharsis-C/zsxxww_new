@@ -19,3 +19,42 @@
 #page7 p{
     margin-top: 7px;
 }
+
+#page7 {
+    animation: page7 8s linear;
+    animation-fill-mode: forwards;
+}
+
+#page7 p {
+    opacity: 0;
+    transition: opacity 2s ease 3s;
+}
+
+#page7 h2 {
+    opacity: 0;
+    transition: opacity 2s ease 1s;
+}
+
+#page7[class~='active'] {
+    z-index: 1;
+}
+
+#page7[class~='active'] h2 {
+    opacity: 1;
+}
+
+#page7[class~='active'] p {
+    opacity: 1;
+}
+
+@keyframes page7 {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
