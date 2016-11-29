@@ -3,33 +3,36 @@
 }
 
 #page24 p{
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 20px;
 }
 
 #page24 {
-    animation: page24 11s linear;
+    transform-origin:left center;
+    transition: transform 1s ease-in 11s;
+    animation: page24 13s linear;
     animation-fill-mode: forwards;
 }
 
 #page24 p {
     opacity: 0;
-    transition: opacity 2s ease 2s;
+    transition: opacity 1.5s ease 2s;
 }
 
 #page24 p:nth-child(2){
-    transition: opacity 2s ease 4s;
+    transition: opacity 1.5s ease 3.5s;
 }
 
 #page24 p:nth-child(3){
-    transition: opacity 2s ease 6s;
+    transition: opacity 1.5s ease 5s;
 }
 
 #page24 p:nth-child(4){
-    transition: opacity 2s ease 8s;
+    transition: opacity 1.5s ease 6.5s;
 }
 
 #page24[class~='active'] {
+    transform: rotateY(90deg);
     z-index: 1;
 }
 

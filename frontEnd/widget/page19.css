@@ -3,12 +3,14 @@
 }
 
 #page19 p{
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 20px;
 }
 
 #page19 {
-    animation: page19 5s linear;
+    transform-origin:left center;
+    transition: transform 1s ease-in 5s;
+    animation: page19 7s linear;
     animation-fill-mode: forwards;
 }
 
@@ -19,6 +21,7 @@
 
 
 #page19[class~='active'] {
+    transform: rotateY(90deg);
     z-index: 1;
 }
 

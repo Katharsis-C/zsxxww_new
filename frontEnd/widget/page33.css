@@ -16,13 +16,15 @@
 }
 
 #page33 {
-    animation: page33 13s linear;
+    transform-origin:left center;
+    transition: transform 1s ease-in 14s;
+    animation: page33 16s linear;
     animation-fill-mode: forwards;
 }
 
 #page33 p {
     opacity: 0;
-    transition: opacity 2s ease 2s;
+    transition: opacity 1.5s ease 2s;
 }
 
 #page33 p:nth-child(2){
@@ -42,6 +44,7 @@
 }
 
 #page33[class~='active'] {
+    transform: rotateY(90deg);
     z-index: 1;
 }
 

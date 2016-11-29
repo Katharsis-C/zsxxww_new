@@ -16,16 +16,19 @@
 }
 
 #page29 {
+    /*transform-origin:left center;*/
+    /*transition: transform 1s ease-in 4s;*/
     animation: page29 4s linear;
     animation-fill-mode: forwards;
 }
 
 #page29 p {
     opacity: 0;
-    transition: opacity 2s ease 2s;
+    transition: opacity 1s ease 2s;
 }
 
 #page29[class~='active'] {
+    /*transform: rotateY(90deg);*/
     z-index: 1;
 }
 

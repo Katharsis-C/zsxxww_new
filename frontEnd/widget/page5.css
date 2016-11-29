@@ -25,17 +25,20 @@
     font-size: 1.7em;
 }
 
+
 #page5 {
-    animation: page5 10s linear;
+    transform-origin:left center;
+    transition: transform 1s ease-in 11s;
+    animation: page4 13s linear;
     animation-fill-mode: forwards;
 }
 
-#page5 p {
+#page5 .word p {
     opacity: 0;
-    transition: opacity 2s ease 3s;
+    transition: opacity 2s ease 2s;
 }
 
-#page5 p:first-child{
+#page5 .word p:first-child{
     opacity: 1;
     margin: 0;
     margin-top: 20px;
@@ -47,6 +50,7 @@
 }
 
 #page5[class~='active'] {
+    transform: rotateY(90deg);
     z-index: 1;
 }
 

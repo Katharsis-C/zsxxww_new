@@ -3,3 +3,4 @@ frontEnd/bower_components/*
 sys/node_modules/*
 .idea/*
 .vscode/*
+sys/public/images/**

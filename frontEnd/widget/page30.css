@@ -24,17 +24,28 @@
 }
 
 #page30 {
-    animation: page30 4s linear;
+    /*transform-origin:left center;*/
+    /*transition: transform 1s ease-in 8s;*/
+    animation: page30 8s linear;
     animation-fill-mode: forwards;
 }
 
 #page30 p {
     opacity: 0;
-    transition: opacity 2s ease 3s;
+    transition: opacity 1.5s ease 3.5s;
+}
+
+#page30 p:first-child{
+    transition: opacity 1.5s ease 2s;
+}
+
+#page30 p:last-child{
+    transition: opacity 1.5s ease 5s;
 }
 
 
 #page30[class~='active'] {
+    /*transform: rotateY(90deg);*/
     z-index: 1;
 }
 

@@ -3,11 +3,13 @@
 }
 
 #page17 p{
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 20px;
 }
 
 #page17 {
+    /*transform-origin:left center;*/
+    /*transition: transform 1s ease-in 7s;*/
     animation: page17 7s linear;
     animation-fill-mode: forwards;
 }
@@ -23,6 +25,7 @@
 
 #page17[class~='active'] {
     z-index: 1;
+    /*transform: rotateY(90deg);*/
 }
 
 
@@ -37,9 +40,9 @@
     10% {
         opacity: 1;
     }
-    95%{
+    /*95%{*/
         /*top:0;*/
-    }
+    /*}*/
     100% {
         opacity: 1;
         /*top:-100%;*/

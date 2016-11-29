@@ -13,7 +13,9 @@
 }
 
 #page21 {
-    animation: page21 8s linear;
+    transform-origin:left center;
+    transition: transform 1s ease-in 8s;
+    animation: page21 10s linear;
     animation-fill-mode: forwards;
 }
 
@@ -27,6 +29,7 @@
 }
 
 #page21[class~='active'] {
+    transform: rotateY(90deg);
     z-index: 1;
 }
 

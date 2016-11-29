@@ -16,7 +16,9 @@
 }
 
 #page20 {
-    animation: page20 8s linear;
+    transform-origin:left center;
+    transition: transform 1s ease-in 8s;
+    animation: page20 10s linear;
     animation-fill-mode: forwards;
 }
 
@@ -31,6 +33,7 @@
 
 
 #page20[class~='active'] {
+    transform: rotateY(90deg);
     z-index: 1;
 }
 

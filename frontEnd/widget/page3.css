@@ -23,6 +23,8 @@
 }
 
 #page3 {
+    /*transform-origin:left center;*/
+    /*transition: transform 1s ease-in 12s;*/
     animation: page3 12s linear;
     animation-fill-mode: forwards;
 }
@@ -56,6 +58,7 @@
 
 
 #page3[class~='active'] {
+    /*transform: rotateY(90deg);*/
     z-index: 1;
 }
 

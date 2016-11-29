@@ -21,21 +21,24 @@
 }
 
 #page25 {
-    animation: page25 5s linear;
+    /*transform-origin:left center;*/
+    /*transition: transform 1s ease-in 4.5s;*/
+    animation: page25 4.5s linear;
     animation-fill-mode: forwards;
 }
 
 #page25 h2 {
     opacity: 0;
-    transition: opacity 2s ease 2s;
+    transition: opacity 1s ease 2s;
 }
 
 #page25 p{
     opacity: 0;
-    transition: opacity 2s ease 3s;
+    transition: opacity 1s ease 3s;
 }
 
 #page25[class~='active'] {
+    /*transform: rotateY(90deg);*/
     z-index: 1;
 }
 

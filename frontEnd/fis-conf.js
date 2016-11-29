@@ -9,7 +9,8 @@ fis.set('project.ignore', [
     '/.gitignore',
     '/*.json',
     '/*.md',
-    '/bower_components/bootstrap/dist/css/*.map'
+    '/bower_components/bootstrap/dist/css/*.map',
+    'test/**'
 ]);
 
 fis.match('::packager', {
@@ -130,15 +131,21 @@ fis.match('widget/page*.css', {
     release: '/public/stylesheets/gallery.css',
     packTo: '/public/stylesheets/gallery.css'
 });
+fis.match('widget/animation.js',{
+    url: '/javascripts/gallery.js',
+    release: '/public/javascripts/gallery.js',
+    packTo: '/public/javascripts/gallery.js',
+    requires:['bower_components/jquery/dist/jquery.min.js']
+});
 fis.match('widget/fullPage.js',{
     url: '/javascripts/gallery.js',
     release: '/public/javascripts/gallery.js',
     packTo: '/public/javascripts/gallery.js',
     requires:['bower_components/jquery/dist/jquery.min.js']
 });
-fis.match('widget/util.js',{
-    url: '/javascripts/gallery.js',
-    release: '/public/javascripts/gallery.js',
-    packTo: '/public/javascripts/gallery.js',
-    requires:['bower_components/jquery/dist/jquery.min.js']
-});
+// fis.match('widget/operator.js',{
+//     url: '/javascripts/gallery.js',
+//     release: '/public/javascripts/gallery.js',
+//     packTo: '/public/javascripts/gallery.js',
+//     requires:['bower_components/jquery/dist/jquery.min.js']
+// });

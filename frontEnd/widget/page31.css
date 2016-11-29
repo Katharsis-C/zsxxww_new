@@ -20,7 +20,9 @@
 }
 
 #page31 {
-    animation: page31 7s linear;
+    transform-origin:left center;
+    transition: transform 1s ease-in 7s;
+    animation: page31 9s linear;
     animation-fill-mode: forwards;
 }
 
@@ -33,6 +35,7 @@
     transition: opacity 2s ease 4s;
 }
 #page31[class~='active'] {
+    transform: rotateY(90deg);
     z-index: 1;
 }
 

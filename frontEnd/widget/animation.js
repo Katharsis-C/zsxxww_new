@@ -12,16 +12,18 @@ function Animation() {
 Animation.prototype.pptInit = function () {
     var nowPage = $('.page');
     nowPage.on('animationEnd webkitAnimationEnd oAnimationEnd', function (event) {
-        var nextPage = $(event.target).next();
+        var now = $(event.target);
+        var nextPage = now.next();
         if (nextPage.hasClass('page')) {
             nextPage.css('animation-play-state', 'running').addClass('active');
+            now.fadeOut(1000);
         }
     });
 };
 
 //    开始ppt动画
 Animation.prototype.pptStart = function () {
-    $('#page15').css('animation-play-state', 'running').addClass('active');
+    $('#page1').css('animation-play-state', 'running').addClass('active');
 };
 
 var animation = new Animation();

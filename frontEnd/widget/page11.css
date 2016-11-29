@@ -28,7 +28,9 @@
 }
 
 #page11 {
-    animation: page11 5s linear;
+    transform-origin:left center;
+    transition: transform 1s ease-in 5s;
+    animation: page11 7s linear;
     animation-fill-mode: forwards;
 }
 
@@ -39,6 +41,7 @@
 
 
 #page11[class~='active'] {
+    transform: rotateY(90deg);
     z-index: 1;
 }
 

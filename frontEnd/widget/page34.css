@@ -11,7 +11,9 @@
 }
 
 #page34 {
-    animation: page34 6s linear;
+    /*transform-origin:left center;*/
+    /*transition: transform 1s ease-in 6s;*/
+    animation: page34 7s linear;
     animation-fill-mode: forwards;
 }
 
@@ -26,6 +28,7 @@
 }
 
 #page34[class~='active'] {
+    /*transform: rotateY(90deg);*/
     z-index: 1;
 }
 

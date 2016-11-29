@@ -22,7 +22,9 @@
 }
 
 #page8 {
-    animation: page8 7s linear;
+    transform-origin:left center;
+    transition: transform 1s ease-in 7s;
+    animation: page8 9s linear;
     animation-fill-mode: forwards;
 }
 
@@ -34,6 +36,7 @@
 
 
 #page8[class~='active'] {
+    transform: rotateY(90deg);
     z-index: 1;
 }
 

@@ -1,17 +1,17 @@
-#page13{
+#page13 {
     z-index: 13;
 }
 
-#page13 .word{
+#page13 .word {
     position: absolute;
-    top:0;
+    top: 0;
 
     width: 100%;
     padding: 0;
     text-align: center;
 }
 
-#page13 .word p{
+#page13 .word p {
     display: inline-block;
 
     line-height: 3.5em;
@@ -24,25 +24,28 @@
 }
 
 #page13 {
-     animation: page13 8s linear;
-     animation-fill-mode: forwards;
- }
+    transform-origin: left center;
+    transition: transform 1s ease-in 8s;
+    animation: page13 10s linear;
+    animation-fill-mode: forwards;
+}
 
 #page13 p {
     opacity: 0;
     transition: opacity 1s ease 2.3s;
 }
 
-#page13 p:first-child{
+#page13 p:first-child {
     transition: opacity 1s ease 3.3s;
 }
 
-#page13 p:last-child{
+#page13 p:last-child {
     transition: opacity 1s ease 1.5s;
 }
 
 #page13[class~='active'] {
     z-index: 1;
+    transform: rotateY(90deg);
 }
 
 #page13[class~='active'] p {

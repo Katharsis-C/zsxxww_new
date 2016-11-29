@@ -16,11 +16,11 @@
 }
 
 #page32 p:first-child{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 #page32 p{
-    margin-top:.5em;
+    margin-top:.4em;
 }
 
 #page32 p:last-child{
@@ -28,13 +28,15 @@
 }
 
 #page32 {
-    animation: page32 8s linear;
+    transform-origin:left center;
+    transition: transform 1s ease-in 9s;
+    animation: page32 11s linear;
     animation-fill-mode: forwards;
 }
 
 #page32 p {
     opacity: 0;
-    transition: opacity 2s ease 4s;
+    transition: opacity 1.5s ease 4.5s;
 }
 
 #page32 p:first-child{
@@ -42,10 +44,11 @@
 }
 
 #page32 p:last-child{
-    transition: opacity 2s ease 6s;
+    transition: opacity 1.5s ease 6s;
 }
 
 #page32[class~='active'] {
+    transform: rotateY(90deg);
     z-index: 1;
 }
 

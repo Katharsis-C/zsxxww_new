@@ -12,7 +12,9 @@
 }
 
 #page6 {
-    animation: page6 8s linear;
+    transform-origin:left center;
+    transition: transform 1s ease-in 8s;
+    animation: page6 10s linear;
     animation-fill-mode: forwards;
 }
 
@@ -31,6 +33,7 @@
 }
 
 #page6[class~='active'] {
+    transform: rotateY(90deg);
     z-index: 1;
 }
 
