@@ -37,23 +37,23 @@
 }
 
 #page9 p:nth-last-child(1) {
-    transition: opacity 2s ease 2s;
+    transition: opacity 1s ease 2s;
 }
 
 #page9 p:nth-last-child(2) {
-    transition: opacity 2s ease 4s;
+    transition: opacity 1.5s ease 2.5s;
 }
 
 #page9 p:nth-last-child(3) {
-    transition: opacity 2s ease 6s;
+    transition: opacity 2s ease 5s;
 }
 
 #page9 p:nth-last-child(4) {
-    transition: opacity 2s ease 8s;
+    transition: opacity 2s ease 7s;
 }
 
 #page9 p:nth-last-child(5) {
-    transition: opacity 2s ease 10s;
+    transition: opacity 2s ease 9s;
 }
 
 

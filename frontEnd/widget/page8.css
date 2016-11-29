@@ -22,22 +22,15 @@
 }
 
 #page8 {
-    animation: page8 8s linear;
+    animation: page8 7s linear;
     animation-fill-mode: forwards;
 }
 
 #page8 p {
     opacity: 0;
-    transition: opacity 2s ease 4s;
+    transition: opacity 3s ease 2s;
 }
 
-#page8 p:first-child{
-    transition: opacity 2s ease 2s;
-}
-
-#page8 p:last-child{
-    transition: opacity 2s ease 6s;
-}
 
 
 #page8[class~='active'] {

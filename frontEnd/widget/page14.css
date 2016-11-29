@@ -1,5 +1,6 @@
 #page14{
     z-index: 14;
+    background: #000;
 }
 
 #page14 .word {
@@ -33,19 +34,19 @@
 
 #page14 p {
     opacity: 0;
-    transition: opacity 2s ease 2s;
+    transition: opacity 2s ease 7.5s;
 }
 
 #page14 p:nth-child(2){
-    transition: opacity 2s ease 4s;
+    transition: opacity 2s ease 5.5s;
 }
 
 #page14 p:nth-child(3){
-    transition: opacity 2s ease 6s;
+    transition: opacity 2s ease 3.5s;
 }
 
 #page14 p:nth-child(4){
-    transition: opacity 2s ease 8s;
+    transition: opacity 2s ease 2s;
 }
 
 #page14[class~='active'] {

@@ -23,13 +23,18 @@
 }
 
 #page3 {
-    animation: page3 10s linear;
+    animation: page3 12s linear;
     animation-fill-mode: forwards;
 }
 
 #page3 p {
     opacity: 0;
     transition: opacity 2s ease 2s;
+}
+
+#page3 .inline-p{
+    opacity: 1;
+    transition: opacity 2s ease 9s;
 }
 
 #page3 .inline-p:nth-child(2) p{
@@ -39,10 +44,6 @@
 #page3 .inline-p:nth-child(2) p:last-child{
     transition: opacity 2s ease 5s;
 }
-
-/*#page3 .inline-p p:first-child{*/
-    /*transition: opacity 2s ease 5s;*/
-/*}*/
 
 #page3 .inline-p:last-child p{
     transition: opacity 2s ease 6s;
@@ -60,6 +61,10 @@
 
 #page3[class~='active'] p {
     opacity: 1;
+}
+
+#page3[class~='active'] .inline-p {
+    opacity: 0;
 }
 
 @keyframes page3 {

@@ -19,12 +19,12 @@
 
 #page1 p {
     opacity: 0;
-    transition: opacity 2s ease 3s;
+    transition: opacity 1.5s ease 2.5s;
 }
 
 #page1 h2 {
     opacity: 0;
-    transition: opacity 2s ease 1s;
+    transition: opacity 1.5s ease 1s;
 }
 
 #page1[class~='active'] {

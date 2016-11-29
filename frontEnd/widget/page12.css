@@ -24,17 +24,17 @@
 }
 
 #page12 {
-    animation: page12 7s linear;
+    animation: page12 8s linear;
     animation-fill-mode: forwards;
 }
 
 #page12 p {
     opacity: 0;
-    transition: opacity 2s ease 4s;
+    transition: opacity 2s ease 2.7s;
 }
 
 #page12 p:last-child{
-    transition: opacity 2s ease 2s;
+    transition: opacity 2s ease 1s;
 }
 
 

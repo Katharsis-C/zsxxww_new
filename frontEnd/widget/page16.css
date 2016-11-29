@@ -1,4 +1,5 @@
 #page16{
+    /*top: 100%;*/
     z-index: 16;
 }
 
@@ -35,12 +36,16 @@
 
 @keyframes page16 {
     0% {
-        opacity: 0;
+        opacity: 1;
     }
     10% {
         opacity: 1;
     }
+    95%{
+        top:0;
+    }
     100% {
         opacity: 1;
+        top:-100%;
     }
 }

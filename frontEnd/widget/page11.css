@@ -34,7 +34,7 @@
 
 #page11 p {
     opacity: 0;
-    transition: opacity 2s ease 2s;
+    transition: opacity 1.5s ease 1.5s;
 }
 
 

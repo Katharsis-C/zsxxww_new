@@ -30,15 +30,15 @@
 
 #page13 p {
     opacity: 0;
-    transition: opacity 2s ease 4s;
+    transition: opacity 1s ease 2.3s;
 }
 
 #page13 p:first-child{
-    transition: opacity 2s ease 6s;
+    transition: opacity 1s ease 3.3s;
 }
 
 #page13 p:last-child{
-    transition: opacity 2s ease 2s;
+    transition: opacity 1s ease 1.5s;
 }
 
 #page13[class~='active'] {

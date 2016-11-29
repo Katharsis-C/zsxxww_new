@@ -18,11 +18,11 @@
 
 #page6 p {
     opacity: 0;
-    transition: opacity 2s ease 4s;
+    transition: opacity 1.5s ease 4s;
 }
 
 #page6 p:last-child{
-    transition: opacity 2s ease 6s;
+    transition: opacity 2s ease 5s;
 }
 
 #page6 h2 {

@@ -32,15 +32,18 @@
 
 #page5 p {
     opacity: 0;
-    transition: opacity 2s ease 5s;
+    transition: opacity 2s ease 3s;
 }
 
 #page5 p:first-child{
-    transition: opacity 2s ease 2s;
+    opacity: 1;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 #page5 p:last-child{
-    transition: opacity 2s ease 7s;
+    transition: opacity 2s ease 5s;
 }
 
 #page5[class~='active'] {

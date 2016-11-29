@@ -21,17 +21,14 @@
 }
 
 #page7 {
-    animation: page7 8s linear;
+    animation: page7 7s linear;
     animation-fill-mode: forwards;
 }
 
 #page7 p {
+    bottom:0;
     opacity: 0;
-    transition: opacity 2s ease 2s;
-}
-
-#page7 p:last-child{
-    transition: opacity 2s ease 4s;
+    transition: opacity 2s ease 2s,bottom 1s linear 2s;
 }
 
 #page7[class~='active'] {
@@ -41,6 +38,7 @@
 
 #page7[class~='active'] p {
     opacity: 1;
+    bottom: 35px;
 }
 
 @keyframes page7 {

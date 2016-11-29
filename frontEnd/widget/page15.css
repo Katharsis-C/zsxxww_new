@@ -8,10 +8,13 @@
 }
 
 #page15 {
-    animation: page15 11s linear;
+    animation: page15 14s linear;
     animation-fill-mode: forwards;
 }
 
+#page15{
+    transition: opacity 2s ease 11s,top 2s ease;
+}
 
 #page15 p {
     opacity: 0;
@@ -45,7 +48,11 @@
     10% {
         opacity: 1;
     }
+    95%{
+        top:0;
+    }
     100% {
         opacity: 1;
+        top:-100%;
     }
 }
