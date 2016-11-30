@@ -16,8 +16,8 @@
 }
 
 #page33 {
-    transform-origin:left center;
-    transition: transform 1s ease-in 14s;
+    /*transform-origin:left center;*/
+    /*transition: transform 1s ease-in 14s;*/
     animation: page33 16s linear;
     animation-fill-mode: forwards;
 }
@@ -44,7 +44,7 @@
 }
 
 #page33[class~='active'] {
-    transform: rotateY(90deg);
+    /*transform: rotateY(90deg);*/
     z-index: 1;
 }
 

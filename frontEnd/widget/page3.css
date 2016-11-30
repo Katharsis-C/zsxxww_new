@@ -25,7 +25,7 @@
 #page3 {
     /*transform-origin:left center;*/
     /*transition: transform 1s ease-in 12s;*/
-    animation: page3 12s linear;
+    animation: page3 13s linear;
     animation-fill-mode: forwards;
 }
 
@@ -77,6 +77,9 @@
     10% {
         opacity: 1;
     }
+    /*90%{*/
+        /*opacity: 1;*/
+    /*}*/
     100% {
         opacity: 1;
     }

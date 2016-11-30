@@ -17,8 +17,8 @@
 }
 
 #page2 {
-    transform-origin:left center;
-    transition: transform 1s ease-in 7.5s;
+    /*transform-origin:left center;*/
+    /*transition: transform 1s ease-in 7.5s;*/
     animation: page2 9.5s linear;
     animation-fill-mode: forwards;
 }
@@ -38,7 +38,7 @@
 }
 
 #page2[class~='active']{
-    transform: rotateY(90deg);
+    /*transform: rotateY(90deg);*/
     z-index: 1;
 }
 
@@ -57,6 +57,9 @@
     10% {
         opacity: 1;
     }
+    /*90%{*/
+        /*opacity: 1;*/
+    /*}*/
     100% {
         opacity: 1;
     }

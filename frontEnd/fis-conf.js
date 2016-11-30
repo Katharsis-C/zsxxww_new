@@ -143,9 +143,9 @@ fis.match('widget/fullPage.js',{
     packTo: '/public/javascripts/gallery.js',
     requires:['bower_components/jquery/dist/jquery.min.js']
 });
-// fis.match('widget/operator.js',{
-//     url: '/javascripts/gallery.js',
-//     release: '/public/javascripts/gallery.js',
-//     packTo: '/public/javascripts/gallery.js',
-//     requires:['bower_components/jquery/dist/jquery.min.js']
-// });
+fis.match('widget/loading.js',{
+    url: '/javascripts/gallery.js',
+    release: '/public/javascripts/gallery.js',
+    packTo: '/public/javascripts/gallery.js',
+    requires:['bower_components/jquery/dist/jquery.min.js']
+});

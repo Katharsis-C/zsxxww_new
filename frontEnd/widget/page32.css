@@ -28,8 +28,8 @@
 }
 
 #page32 {
-    transform-origin:left center;
-    transition: transform 1s ease-in 9s;
+    /*transform-origin:left center;*/
+    /*transition: transform 1s ease-in 9s;*/
     animation: page32 11s linear;
     animation-fill-mode: forwards;
 }
@@ -48,7 +48,7 @@
 }
 
 #page32[class~='active'] {
-    transform: rotateY(90deg);
+    /*transform: rotateY(90deg);*/
     z-index: 1;
 }
 

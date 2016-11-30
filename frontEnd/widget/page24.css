@@ -8,8 +8,8 @@
 }
 
 #page24 {
-    transform-origin:left center;
-    transition: transform 1s ease-in 11s;
+    /*transform-origin:left center;*/
+    /*transition: transform 1s ease-in 11s;*/
     animation: page24 13s linear;
     animation-fill-mode: forwards;
 }
@@ -32,7 +32,7 @@
 }
 
 #page24[class~='active'] {
-    transform: rotateY(90deg);
+    /*transform: rotateY(90deg);*/
     z-index: 1;
 }
 

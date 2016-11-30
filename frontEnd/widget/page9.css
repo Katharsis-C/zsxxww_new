@@ -28,8 +28,8 @@
 }
 
 #page9 {
-    transform-origin:left center;
-    transition: transform 1s ease-in 14s;
+    /*transform-origin:left center;*/
+    /*transition: transform 1s ease-in 14s;*/
     animation: page9 16s linear;
     animation-fill-mode: forwards;
 }
@@ -61,7 +61,7 @@
 
 #page9[class~='active'] {
     z-index: 1;
-    transform: rotateY(90deg);
+    /*transform: rotateY(90deg);*/
 }
 
 #page9[class~='active'] p {
@@ -75,6 +75,9 @@
     10% {
         opacity: 1;
     }
+    /*90%{*/
+        /*opacity: 1;*/
+    /*}*/
     100% {
         opacity: 1;
     }

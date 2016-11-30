@@ -8,8 +8,8 @@
 }
 
 #page19 {
-    transform-origin:left center;
-    transition: transform 1s ease-in 5s;
+    /*transform-origin:left center;*/
+    /*transition: transform 1s ease-in 5s;*/
     animation: page19 7s linear;
     animation-fill-mode: forwards;
 }
@@ -21,7 +21,7 @@
 
 
 #page19[class~='active'] {
-    transform: rotateY(90deg);
+    /*transform: rotateY(90deg);*/
     z-index: 1;
 }
 

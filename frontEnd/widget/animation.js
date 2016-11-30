@@ -15,8 +15,8 @@ Animation.prototype.pptInit = function () {
         var now = $(event.target);
         var nextPage = now.next();
         if (nextPage.hasClass('page')) {
+            now.fadeOut(900);
             nextPage.css('animation-play-state', 'running').addClass('active');
-            now.fadeOut(1000);
         }
     });
 };
@@ -31,6 +31,8 @@ var animation = new Animation();
 animation.pptInit();
 
 $(document).ready(function () {
-    animation.pptStart();
+    setTimeout(function () {
+        animation.pptStart();
+    },10000);
 });
 
