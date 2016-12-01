@@ -36,7 +36,6 @@ function Cache(i) {
         })
     }
     else {
-        othercache(0);
         i++;
         Cache(i);
     }
@@ -53,7 +52,7 @@ function othercache(i) {
 }
 
 Cache(1);
-
+othercache(0);
 $("#console").click(function () {
     if (playflage === 1) {
         play.pause();
