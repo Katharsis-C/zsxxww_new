@@ -10,7 +10,8 @@ fis.set('project.ignore', [
     '/*.json',
     '/*.md',
     '/bower_components/bootstrap/dist/css/*.map',
-    'test/**'
+    'test/**',
+    'test/js/**'
 ]);
 
 fis.match('::packager', {
@@ -148,4 +149,7 @@ fis.match('widget/loading.js',{
     release: '/public/javascripts/gallery.js',
     packTo: '/public/javascripts/gallery.js',
     requires:['bower_components/jquery/dist/jquery.min.js']
+});
+fis.match('resource/**',{
+    release:'public/$0'
 });

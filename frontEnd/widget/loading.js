@@ -25,7 +25,7 @@ function Cache(i) {
                 else {
                     music = 'music.ogg';
                 }
-                play.setAttribute('src', 'images/' + music);
+                play.setAttribute('src', 'resource/' + music);
                 play.addEventListener("canplay", function () {
                     loading.hide();
                     animation.pptInit();
