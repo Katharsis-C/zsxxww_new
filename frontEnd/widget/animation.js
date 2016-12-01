@@ -5,7 +5,7 @@
 
 
 function Animation() {
-
+    this.status = false;
 }
 
 //    初始化ppt动画
@@ -23,13 +23,18 @@ Animation.prototype.pptInit = function () {
 
 //    开始ppt动画
 Animation.prototype.pptStart = function () {
-    $('#page1').css('animation-play-state', 'running').addClass('active');
+    this.status.true;
+    $('#tip').fadeOut(1000);
+    setTimeout(function () {
+        $('#page1').css('animation-play-state', 'running').addClass('active');
+        $("#loading").hide();
+    },1000);
 };
 
 
 /*$(document).ready(function () {
-    setTimeout(function () {
-        animation.pptStart();
-    }, 10000);
-});*/
+ setTimeout(function () {
+ animation.pptStart();
+ }, 10000);
+ });*/
 
