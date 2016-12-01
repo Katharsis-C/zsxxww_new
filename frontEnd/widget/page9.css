@@ -27,6 +27,13 @@
     writing-mode: vertical-lr;
 }
 
+@media (max-width: 306px) {
+    #page9 .word p {
+        line-height: 2em;
+        letter-spacing: .2em;
+    }
+}
+
 #page9 {
     /*transform-origin:left center;*/
     /*transition: transform 1s ease-in 14s;*/

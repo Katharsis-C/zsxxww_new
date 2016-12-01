@@ -27,9 +27,9 @@ function Cache(i) {
                 }
                 play.setAttribute('src', 'resource/' + music);
                 play.addEventListener("canplay", function () {
-                    loading.hide();
-                    animation.pptInit();
-                    animation.pptStart();
+                    // loading.hide();
+                    // animation.pptInit();
+                    // animation.pptStart();
                     play.play();
                 });
             }
@@ -53,6 +53,11 @@ function othercache(i) {
 
 Cache(1);
 othercache(0);
+$("#loading").hide();
+animation.pptInit();
+setTimeout(function(){
+    animation.pptStart();
+},5000);
 $("#console").click(function () {
     if (playflage === 1) {
         play.pause();

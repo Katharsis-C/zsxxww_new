@@ -16,6 +16,12 @@
     text-align: right;
 }
 
+@media (max-height: 483px) {
+    #page2 .right{
+        margin-top: 10px;
+    }
+}
+
 #page2 {
     /*transform-origin:left center;*/
     /*transition: transform 1s ease-in 7.5s;*/

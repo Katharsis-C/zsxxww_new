@@ -11,6 +11,15 @@
     margin-top: 40px;
 }
 
+@media (max-height: 480px) {
+    #page6 h2{
+        margin-bottom: 19px;
+    }
+    #page6 .word p{
+        margin-top: 10px;
+    }
+}
+
 #page6 {
     /*transform-origin:left center;*/
     /*transition: transform 1s ease-in 8s;*/

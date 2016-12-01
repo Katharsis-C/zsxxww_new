@@ -7,6 +7,13 @@
     margin-left: 20px;
 }
 
+@media (max-height: 480px) {
+    #page22 p{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+}
+
 #page22 {
     /*transform-origin:left center;*/
     /*transition: transform 1s ease-in 11s;*/

@@ -13,6 +13,13 @@
     margin-bottom: 70px;
 }
 
+@media (max-height: 480px) {
+    #page5 .word > p:first-child{
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+}
+
 #page5 p{
     margin-bottom: 40px;
 }
@@ -21,6 +28,7 @@
     margin-bottom: 0;
     margin-left: 40px;
 }
+
 
 #page5 p span{
     font-size: 1.7em;
