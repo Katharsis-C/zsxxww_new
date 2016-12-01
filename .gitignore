@@ -1,6 +1,7 @@
 *.tif
 frontEnd/bower_components/*
 sys/node_modules/*
+frontEnd/node_modules/*
 .idea/*
 .vscode/*
 sys/public/images/**
