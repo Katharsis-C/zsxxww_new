@@ -26,6 +26,7 @@ Animation.prototype.pptStart = function () {
     this.status = true;
     $('#tip').fadeOut(1000);
     setTimeout(function () {
+        $("#console").fadeIn();
         $('#page1').css('animation-play-state', 'running').addClass('active');
         $("#loading").hide();
     },1000);

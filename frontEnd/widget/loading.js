@@ -12,82 +12,80 @@ var cacheimg = ["", "camera", "train", "film", "film2", "map", "sky", "stair", "
 
 
 var loaded = 0;
-function add(imgages,music) {
-    // for (var i = 1; i <= 37; i++) {
-    //     images.eq(i).prop('src', 'images/' + img[i]);
-    //     console.log('add success');
-    // }
+function add(imgages, music) {
     var i = 1;
     imgages.each(function () {
-        $(this).prop('src','images/'+img[i]+'.png');
+        $(this).prop('src', 'images/' + img[i] + '.png');
         i++;
     });
-    var brow = $.support;
-    if (brow.isIE||brow.isSafari){
-        music.prop('src','/resource/music.mp3');
-    }else {
-        music.prop('src','resource/music.ogg');
+    if (navigator.userAgent.match(/msie/i) ||
+        navigator.userAgent.match(/trident/i) ||
+        (navigator.userAgent.indexOf('Safari') != -1 &&
+        navigator.userAgent.indexOf('Chrome') == -1)||
+        /Edge\/\d./i.test(navigator.userAgent)) {
+        music.attr('src', '/resource/music.mp3');
+    } else {
+        music.attr('src', 'resource/music.ogg');
     }
 }
-function bindLoad(images,music,animation) {
-    // console.log(images.eq(1));
+function bindLoad(images, music, animation) {
     images.each(function () {
-        // console.log(this);
-        $(this).on('load',function () {
+        $(this).on('load', function () {
             loaded++;
-            if(loaded>=38){
-                if(animation.status==false){
+            if (loaded >= 38) {
+                if (animation.status == false) {
                     animation.pptStart();
                 }
                 music[0].play();
             }
         });
     });
-    music.on('canplay',function () {
+    music.on('canplay', function () {
         loaded++;
-        if(loaded>=38){
-            if(animation.status==false){
+        if (loaded >= 38) {
+            if (animation.status == false) {
                 animation.pptStart();
             }
             this.play();
         }
     });
-    // load(function () {
-    //     loaded++;
-    //     console.log('loaded');
-    // })
 }
 
 $(document).ready(function () {
-    var images = $('.page img');
-    var animation = new Animation();
-    var music = $('#music');
-    var playflage = 1;
-    animation.pptInit();
-    bindLoad(images,music,animation);
-    add(images,music);
+    if( /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        var images = $('.page img');
+        var animation = new Animation();
+        var music = $('#music');
+        var playflage = 1;
+        animation.pptInit();
+        bindLoad(images, music, animation);
+        add(images, music);
 
-    $("#console").click(function () {
-        if (playflage === 1) {
-            music[0].pause();
-            $('#console>button>img').attr('src', 'images/play.png')
-        }
-        else {
-            music[0].play();
-            $('#console>button>img').attr('src', 'images/pause.png')
-        }
-        playflage = ~playflage;
-    });
+        $("#console").click(function () {
+            if (playflage === 1) {
+                music[0].pause();
+                $('#console>button>img').attr('src', 'images/play.png')
+            }
+            else {
+                music[0].play();
+                $('#console>button>img').attr('src', 'images/pause.png')
+            }
+            playflage = ~playflage;
+        });
 
-    setTimeout(function () {
-        if(animation.status==false){
-            $("#loading").hide();
-            $('#tip').fadeIn();
-            setTimeout(function () {
-                animation.pptStart();
-            },2000);
-        }
-    },20000);
+        setTimeout(function () {
+            if (animation.status == false) {
+                $("#loading").hide();
+                $('#tip').fadeIn();
+                setTimeout(function () {
+                    animation.pptStart();
+                }, 2000);
+            }
+        }, 20000);
+    }else {
+        $("#loading").hide();
+        $('#tip1').fadeIn();
+    }
 });
 
 // function add(i) {
