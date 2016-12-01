@@ -1,0 +1,29 @@
+{
+  "name": "zscwww_now_frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fis-conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "fis3 release -d ../sys -c",
+    "start": "fis3 release -d ../sys -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eva990417744/zsxxww_new.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eva990417744/zsxxww_new/issues"
+  },
+  "homepage": "https://github.com/eva990417744/zsxxww_new#readme",
+  "devDependencies": {
+    "fis3": "*",
+    "fis3-preprocessor-autoprefixer": "*",
+    "fis-optimizer-html-compress": "*",
+    "fis3-postpackager-loader": "*"
+  }
+}
