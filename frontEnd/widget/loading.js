@@ -16,9 +16,27 @@ function Cache(i) {
             if (i < 35) {
                 Cache(i);
             }
+            else {
+                var loading = $("#loading");
+                var music;
+                if (navigator.userAgent.match("Safari") || navigator.userAgent.match("MSIE")) {
+                    music = 'music.mp3';
+                }
+                else {
+                    music = 'music.ogg';
+                }
+                play.setAttribute('src', 'images/' + music);
+                play.addEventListener("canplay", function () {
+                    loading.hide();
+                    animation.pptInit();
+                    animation.pptStart();
+                    play.play();
+                });
+            }
         })
     }
     else {
+        othercache(0);
         i++;
         Cache(i);
     }
@@ -34,27 +52,7 @@ function othercache(i) {
     })
 }
 
-function loading() {
-    var loading = $("#loading");
-    var music;
-    if (navigator.userAgent.match("Safari") || navigator.userAgent.match("MSIE")) {
-        music = 'music.mp3';
-    }
-    else {
-        music = 'music.ogg';
-    }
-    Cache(1);
-    othercache(0);
-    play.setAttribute('src', 'images/' + music);
-    play.addEventListener("canplay", function () {
-        loading.hide();
-        animation.pptInit();
-        animation.pptStart();
-        play.play();
-    });
-}
-
-loading();
+Cache(1);
 
 $("#console").click(function () {
     if (playflage === 1) {
