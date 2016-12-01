@@ -26,13 +26,10 @@ Animation.prototype.pptStart = function () {
     $('#page1').css('animation-play-state', 'running').addClass('active');
 };
 
-var animation = new Animation();
 
-animation.pptInit();
-
-$(document).ready(function () {
+/*$(document).ready(function () {
     setTimeout(function () {
         animation.pptStart();
-    },10000);
-});
+    }, 10000);
+});*/
 
