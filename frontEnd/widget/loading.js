@@ -25,10 +25,8 @@ function add(imgages,music) {
     var brow = $.support;
     if (brow.isIE||brow.isSafari){
         music.prop('src','/resource/music.mp3');
-        console.log('1');
     }else {
         music.prop('src','resource/music.ogg');
-        console.log('2');
     }
 }
 function bindLoad(images,music,animation) {
@@ -42,20 +40,16 @@ function bindLoad(images,music,animation) {
                     animation.pptStart();
                 }
                 music[0].play();
-                console.log('start');
             }
-            console.log('loaded img');
         });
     });
     music.on('canplay',function () {
         loaded++;
-        console.log('music ok');
         if(loaded>=38){
             if(animation.status==false){
                 animation.pptStart();
             }
             this.play();
-            console.log('start');
         }
     });
     // load(function () {

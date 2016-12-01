@@ -23,7 +23,7 @@ Animation.prototype.pptInit = function () {
 
 //    开始ppt动画
 Animation.prototype.pptStart = function () {
-    this.status.true;
+    this.status = true;
     $('#tip').fadeOut(1000);
     setTimeout(function () {
         $('#page1').css('animation-play-state', 'running').addClass('active');
