@@ -3,41 +3,41 @@ var img = [
     "qitou", "baoxiudan", "film", "film", "film", "film", "film", "bridge", ['metting1', 'metting2', 'metting3', 'metting4'],
     "film", "film", "film", "film3", "film3", "film3", "film3", "film3", "film3", "film3", "tree", "lake", "words"
 ];
-
+var cacheimg = ["", "camera", "train", "film", "film2", "map", "sky", "stair", "fengxiang", "cat", "xiangshan",
+    "qitou", "baoxiudan", "bridge", "film3", "tree", "lake", "words"
+];
 var playflage = 1;
 var play = document.getElementById("music");
 var animation = new Animation();
 
-function Cache(i) {
+function add(i) {
     if (i != 21) {
-        $.get('images/' + img[i] + '.png', function () {
+        if (i < 35) {
             $('#page' + i + '>*>img').attr('src', 'images/' + img[i] + '.png');
             i++;
-            if (i < 35) {
-                Cache(i);
+            add(i);
+        }
+        else {
+            var loading = $("#loading");
+            var music;
+            if (navigator.userAgent.match("Safari") || navigator.userAgent.match("MSIE")) {
+                music = 'music.mp3';
             }
             else {
-                var loading = $("#loading");
-                var music;
-                if (navigator.userAgent.match("Safari") || navigator.userAgent.match("MSIE")) {
-                    music = 'music.mp3';
-                }
-                else {
-                    music = 'music.ogg';
-                }
-                play.setAttribute('src', 'resource/' + music);
-                play.addEventListener("canplay", function () {
-                    // loading.hide();
-                    // animation.pptInit();
-                    // animation.pptStart();
-                    play.play();
-                });
+                music = 'music.ogg';
             }
-        })
+            play.setAttribute('src', 'resource/' + music);
+            play.addEventListener("canplay", function () {
+                loading.hide();
+                animation.pptInit();
+                animation.pptStart();
+                play.play();
+            });
+        }
     }
     else {
         i++;
-        Cache(i);
+        add(i);
     }
 }
 
@@ -48,16 +48,28 @@ function othercache(i) {
         if (i < 4) {
             othercache(i);
         }
+        else {
+            add(1);
+        }
     })
 }
 
+function Cache(i) {
+    $.get('images/' + cacheimg[i] + '.png', function () {
+        i++;
+        if (i < 18) {
+            Cache(i);
+        }
+        else {
+            othercache(0);
+        }
+    })
+}
+
+
 Cache(1);
-othercache(0);
-$("#loading").hide();
-animation.pptInit();
-setTimeout(function(){
-    animation.pptStart();
-},5000);
+
+
 $("#console").click(function () {
     if (playflage === 1) {
         play.pause();
