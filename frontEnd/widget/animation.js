@@ -23,13 +23,16 @@ Animation.prototype.pptInit = function () {
 
 //    开始ppt动画
 Animation.prototype.pptStart = function () {
+    // var tip2 = $('#tip2');
+    // var console = $("#console");
     this.status = true;
     $('#tip').fadeOut(1000);
     setTimeout(function () {
-        $("#console").fadeIn();
-        $('#page1').css('animation-play-state', 'running').addClass('active');
         $("#loading").hide();
-    },1000);
+        $('#tip2').fadeIn();
+        // $('#page1').css('animation-play-state', 'running').addClass('active');
+        // $("#loading").hide();
+    }, 1000);
 };
 
 

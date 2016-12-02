@@ -1,10 +1,10 @@
 var img = [
-    "", "camera", "train", "film", "film", "film", "film2", "map", "sky", "stair", "fengxiang", "cat", "xiangshan",
-    "qitou", "baoxiudan", "film", "film", "film", "film", "film", "bridge", "metting1", "metting2", "metting3", "metting4",
-    "film", "film", "film", "film3", "film3", "film3", "film3", "film3", "film3", "film3", "tree", "lake", "words"
+    "", "camera_m", "train_m", "film_m", "film_m", "film_m", "film2_m", "map_m", "sky_m", "stair_m", "fengxiang_m", "cat_m", "xiangshan_m",
+    "qitou_m", "baoxiudan_m", "film_m", "film_m", "film_m", "film_m", "film_m", "bridge_m", "metting1_m", "metting2_m", "metting3_m", "metting4_m",
+    "film_m", "film_m", "film_m", "film3_m", "film3_m", "film3_m", "film3_m", "film3_m", "film3_m", "film3_m", "tree_m", "lake_m", "words_m"
 ];
-var cacheimg = ["", "camera", "train", "film", "film2", "map", "sky", "stair", "fengxiang", "cat", "xiangshan",
-    "qitou", "baoxiudan", "bridge", "film3", "tree", "lake", "words"
+var cacheimg = ["", "camera_m", "train_m", "film_m", "film2_m", "map_m", "sky_m", "stair_m", "fengxiang_m", "cat_m", "xiangshan_m",
+    "qitou_m", "baoxiudan_m", "bridge_m", "film3_m", "tree_m", "lake_m", "words_m"
 ];
 // var playflage = 1;
 // var play = document.getElementById("music");
@@ -12,6 +12,8 @@ var cacheimg = ["", "camera", "train", "film", "film2", "map", "sky", "stair", "
 
 
 var loaded = 0;
+var loadSum = 38;
+var isIOS = false;
 function add(imgages, music) {
     var i = 1;
     imgages.each(function () {
@@ -25,33 +27,39 @@ function add(imgages, music) {
         /Edge\/\d./i.test(navigator.userAgent)) {
         music.attr('src', '/resource/music.mp3');
     } else {
-        music.attr('src', 'resource/music.ogg');
+        music.attr('src', '/resource/music.ogg');
     }
 }
 function bindLoad(images, music, animation) {
+    if( isIOS == true)  {
+        loadSum = 37;
+    }
     images.each(function () {
         $(this).on('load', function () {
             loaded++;
-            if (loaded >= 38) {
+            if (loaded >= loadSum) {
                 if (animation.status == false) {
                     animation.pptStart();
                 }
-                music[0].play();
+                // music[0].play();
             }
         });
     });
     music.on('canplay', function () {
         loaded++;
-        if (loaded >= 38) {
+        if (loaded >= loadSum) {
             if (animation.status == false) {
                 animation.pptStart();
             }
-            this.play();
+            // this.play();
         }
     });
 }
 
 $(document).ready(function () {
+    if( /iPhone|iPod|/i.test(navigator.userAgent) ) {
+        isIOS = true;
+    }
     if( /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         var images = $('.page img');
         var animation = new Animation();
@@ -61,6 +69,13 @@ $(document).ready(function () {
         bindLoad(images, music, animation);
         add(images, music);
 
+        $('#tip2').one('click',function (e) {
+            music[0].loop = true;
+            music[0].play();
+            $('#tip2').fadeOut();
+            $("#console").fadeIn();
+            $('#page1').css('animation-play-state', 'running').addClass('active');
+        });
         $("#console").click(function () {
             if (playflage === 1) {
                 music[0].pause();

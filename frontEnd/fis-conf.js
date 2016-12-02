@@ -153,3 +153,9 @@ fis.match('widget/loading.js',{
 fis.match('resource/**',{
     release:'public/$0'
 });
+fis.match('widget/autoplay.js',{
+    url: '/javascripts/gallery.js',
+    release: '/public/javascripts/gallery.js',
+    packTo: '/public/javascripts/gallery.js',
+    requires:['bower_components/jquery/dist/jquery.min.js']
+});
