@@ -1,6 +1,3 @@
-#page12{
-    z-index: 12;
-}
 
 #page12 .word{
     position: absolute;
@@ -23,33 +20,24 @@
     writing-mode: vertical-lr;
 }
 
+/*   page12的动画效果   */
 #page12 {
-    /*transform-origin:left center;*/
-    /*transition: transform 1s ease-in 8s;*/
     animation: page12 7.5s linear;
     animation-fill-mode: forwards;
 }
-
 #page12 p {
     opacity: 0;
     transition: opacity 2s ease 2.7s;
 }
-
 #page12 p:last-child{
     transition: opacity 2s ease 1s;
 }
-
-
 #page12[class~='active'] {
-    /*transform: rotateY(90deg);*/
     z-index: 1;
 }
-
-
 #page12[class~='active'] p {
     opacity: 1;
 }
-
 @keyframes page12 {
     0% {
         opacity: 0;

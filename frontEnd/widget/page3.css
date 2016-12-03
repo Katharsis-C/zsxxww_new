@@ -1,11 +1,5 @@
 
-#page3{
-    z-index: 3;
-}
-
 #page3 .word{
-    /*padding: 20px 20px 0 30px;*/
-
     letter-spacing: .3em;
 }
 
@@ -20,63 +14,45 @@
     }
 }
 
-/*#page3 .word span:last-child{*/
-    /*display: inline-block;*/
-/*}*/
-
 #page3 .word p span:first-child{
     font-size: 30px;
     letter-spacing: .4em;
 }
 
+/*   page3的动画效果  */
 #page3 {
-    /*transform-origin:left center;*/
-    /*transition: transform 1s ease-in 12s;*/
     animation: page3 11s linear;
     animation-fill-mode: forwards;
 }
-
 #page3 p {
     opacity: 0;
     transition: opacity 2s ease 1s;
 }
-
 #page3 .inline-p{
     opacity: 1;
     transition: opacity 1.5s ease 9s;
 }
-
 #page3 .inline-p:nth-child(2) p{
     transition: opacity 1.5s ease 2s;
 }
-
 #page3 .inline-p:nth-child(2) p:last-child{
     transition: opacity 1.5s ease 3.5s;
 }
-
 #page3 .inline-p:last-child p{
     transition: opacity 1.5s ease 5s;
 }
-
 #page3 .inline-p:last-child p:last-child{
     transition: opacity 1.5s ease 6.5s;
 }
-
-
-
 #page3[class~='active'] {
-    /*transform: rotateY(90deg);*/
     z-index: 1;
 }
-
 #page3[class~='active'] p {
     opacity: 1;
 }
-
 #page3[class~='active'] .inline-p {
     opacity: 0;
 }
-
 @keyframes page3 {
     0% {
         opacity: 0;
@@ -84,9 +60,6 @@
     10% {
         opacity: 1;
     }
-    /*90%{*/
-        /*opacity: 1;*/
-    /*}*/
     100% {
         opacity: 1;
     }

@@ -1,49 +1,36 @@
-#page15{
-    z-index: 15;
-}
 
 #page15 p{
     margin-top: 30px;
     margin-left: 20px;
 }
 
+/*   page15的动画效果  */
 #page15 {
     animation: page15 10.5s linear;
     animation-fill-mode: forwards;
 }
-
 #page15{
-    /*transform-origin:left center;*/
     transition: opacity 2s ease 11s,top 2s ease;
-    /*transform 1s ease-in 14s;*/
 }
-
 #page15 p {
     opacity: 0;
     transition: opacity 1.5s ease 1.5s;
 }
-
 #page15 p:nth-child(2){
     transition: opacity 1.5s ease 3s;
 }
-
 #page15 p:nth-child(3){
     transition: opacity 1.5s ease 4.5s;
 }
-
 #page15 p:nth-child(4){
     transition: opacity 1.5s ease 6s;
 }
-
 #page15[class~='active'] {
-    /*transform: rotateY(90deg);*/
     z-index: 1;
 }
-
 #page15[class~='active'] p {
     opacity: 1;
 }
-
 @keyframes page15 {
     0% {
         opacity: 0;
@@ -51,11 +38,7 @@
     10% {
         opacity: 1;
     }
-    /*95%{*/
-        /*top:0;*/
-    /*}*/
     100% {
         opacity: 1;
-        /*top:-100%;*/
     }
 }

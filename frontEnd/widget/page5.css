@@ -1,16 +1,14 @@
-#page5{
-    z-index: 5;
-}
 
 #page5 .word{
-    /*padding: 20px 15px 0 20px;*/
     padding-right: 30px;
 
     letter-spacing: .3em;
 }
 
 #page5 p:first-child{
-    margin-bottom: 70px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 @media (max-height: 480px) {
@@ -34,40 +32,27 @@
     font-size: 1.7em;
 }
 
-
+/*   page5的动画效果   */
 #page5 {
-    /*transform-origin:left center;*/
-    /*transition: transform 1s ease-in 11s;*/
     animation: page5 5s linear;
     animation-fill-mode: forwards;
 }
-
 #page5  p {
     opacity: 0;
     transition: opacity 1.5s ease 1s;
 }
-
 #page5  p:first-child{
     opacity: 1;
-    margin: 0;
-    margin-top: 20px;
-    margin-bottom: 50px;
 }
-
 #page5 p:last-child{
     transition: opacity 1.5s ease 2.5s;
 }
-
 #page5[class~='active'] {
-    /*transform: rotateY(90deg);*/
     z-index: 1;
 }
-
-
 #page5[class~='active'] p {
     opacity: 1;
 }
-
 @keyframes page5 {
     0% {
         opacity: 0;
@@ -75,9 +60,6 @@
     10% {
         opacity: 1;
     }
-    /*90%{*/
-        /*opacity: 1;*/
-    /*}*/
     100% {
         opacity: 1;
     }

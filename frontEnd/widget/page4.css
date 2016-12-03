@@ -1,10 +1,5 @@
 
-#page4{
-    z-index: 4;
-}
-
 #page4 .word{
-    /*padding: 20px 15px 0 20px;*/
     padding-right: 30px;
 
     letter-spacing: .3em;
@@ -43,50 +38,36 @@
     font-size: 1.4em;
 }
 
+/*   page4的动画效果   */
 #page4 {
-    /*transform-origin:left center;*/
-    /*transition: transform 1s ease-in 11s;*/
     animation: page4 9s linear;
     animation-fill-mode: forwards;
 }
-
 #page4 .word p {
     opacity: 0;
     transition: opacity 1.5s ease 2.5s;
 }
-
-
-
 #page4 .word p:last-child{
     transition: opacity 1.5s ease 5.5s;
 }
-
 #page4 .word h6{
     opacity: 0;
 }
-
-
 #page4 .word h6:nth-child(2) {
     transition: opacity 1.5s ease 1s;
 }
-
 #page4 .word h6:nth-child(4) {
     transition: opacity 1.5s ease 4s;
 }
-
 #page4[class~='active'] {
-    /*transform: rotateY(90deg);*/
     z-index: 1;
 }
-
 #page4[class~='active'] h6 {
     opacity: 1;
 }
-
 #page4[class~='active'] p {
     opacity: 1;
 }
-
 @keyframes page4 {
     0% {
         opacity: 1;

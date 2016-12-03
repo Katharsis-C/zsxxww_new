@@ -1,12 +1,11 @@
-#page30{
-    z-index: 30;
-}
 
 #page30 .word{
     position: fixed;
-    width: 100%;
     top:50%;
     left: 50%;
+
+    width: 100%;
+
     transform: translate(-50%,-50%);
 }
 
@@ -23,36 +22,28 @@
     margin-left: 130px;
 }
 
+
+/*  page30的动画效果   */
 #page30 {
-    /*transform-origin:left center;*/
-    /*transition: transform 1s ease-in 8s;*/
     animation: page30 8s linear;
     animation-fill-mode: forwards;
 }
-
 #page30 p {
     opacity: 0;
     transition: opacity 1.5s ease 3.5s;
 }
-
 #page30 p:first-child{
     transition: opacity 1.5s ease 2s;
 }
-
 #page30 p:last-child{
     transition: opacity 1.5s ease 5s;
 }
-
-
 #page30[class~='active'] {
-    /*transform: rotateY(90deg);*/
     z-index: 1;
 }
-
 #page30[class~='active'] p {
     opacity: 1;
 }
-
 @keyframes page30 {
     0% {
         opacity: 0;

@@ -1,6 +1,7 @@
 /**
  * Created by XX on 2016/11/27.
  */
+//   废弃的实现
 
 function pos(type, step, ele) {
     if (_.isNumber(step)) {

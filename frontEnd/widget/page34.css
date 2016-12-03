@@ -1,45 +1,36 @@
-#page34{
-    z-index: 34;
-}
 
 #page34 .word{
     position: absolute;
     bottom: 20px;
-    letter-spacing: 1em;
+
     width: 100%;
+
+    letter-spacing: 1em;
     text-align: center;
 }
 
+/*    page34的动画效果   */
 #page34 {
-    /*transform-origin:left center;*/
-    /*transition: transform 1s ease-in 6s;*/
     animation: page34 7s linear;
     animation-fill-mode: forwards;
 }
-
 #page34 img{
     opacity: 0;
     transition: opacity 2s ease 1s;
 }
-
 #page34 p {
     opacity: 0;
     transition: opacity 2s ease 2.5s;
 }
-
 #page34[class~='active'] {
-    /*transform: rotateY(90deg);*/
     z-index: 1;
 }
-
 #page34[class~='active'] p {
     opacity: 1;
 }
-
 #page34[class~='active'] img {
     opacity: 1;
 }
-
 @keyframes page34 {
     0% {
         opacity: 0;

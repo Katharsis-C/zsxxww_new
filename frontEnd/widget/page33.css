@@ -1,6 +1,3 @@
-#page33{
-    z-index: 33;
-}
 
 #page33 .word{
     position: absolute;
@@ -15,43 +12,33 @@
     background: rgba(0,0,0,.5);
 }
 
+/*    page33的动画效果    */
 #page33 {
-    /*transform-origin:left center;*/
-    /*transition: transform 1s ease-in 14s;*/
     animation: page33 16s linear;
     animation-fill-mode: forwards;
 }
-
 #page33 p {
     opacity: 0;
     transition: opacity 1.5s ease 2s;
 }
-
 #page33 p:nth-child(2){
     transition: opacity 2s ease 4s;
 }
-
 #page33 p:nth-child(3){
     transition: opacity 2s ease 6s;
 }
-
 #page33 p:nth-child(4){
     transition: opacity 2s ease 8s;
 }
-
 #page33 p:nth-child(5){
     transition: opacity 2s ease 10s;
 }
-
 #page33[class~='active'] {
-    /*transform: rotateY(90deg);*/
     z-index: 1;
 }
-
 #page33[class~='active'] p {
     opacity: 1;
 }
-
 @keyframes page33 {
     0% {
         opacity: 0;

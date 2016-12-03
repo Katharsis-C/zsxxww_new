@@ -1,6 +1,3 @@
-#page20{
-    z-index: 20;
-}
 
 #page20 .word{
     position: absolute;
@@ -15,33 +12,24 @@
     background: rgba(0,0,0,.5);
 }
 
+/*   page20的动画效果    */
 #page20 {
-    /*transform-origin:left center;*/
-    /*transition: transform 1s ease-in 8s;*/
     animation: page20 7s linear;
     animation-fill-mode: forwards;
 }
-
 #page20 p {
     opacity: 0;
     transition: opacity 1.5s ease 2s;
 }
-
 #page20 p:last-child{
     transition: opacity 1.5s ease 3.5s;
 }
-
-
 #page20[class~='active'] {
-    /*transform: rotateY(90deg);*/
     z-index: 1;
 }
-
-
 #page20[class~='active'] p {
     opacity: 1;
 }
-
 @keyframes page20 {
     0% {
         opacity: 0;

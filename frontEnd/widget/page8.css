@@ -1,6 +1,3 @@
-#page8{
-    z-index: 8;
-}
 
 #page8 .word{
     position: absolute;
@@ -21,30 +18,21 @@
     margin-left: 120px;
 }
 
+/*   page8的动画效果   */
 #page8 {
-    /*transform-origin:left center;*/
-    /*transition: transform 1s ease-in 7s;*/
     animation: page8 5.5s linear;
     animation-fill-mode: forwards;
 }
-
 #page8 p {
     opacity: 0;
     transition: opacity 1.5s ease 2s;
 }
-
-
-
 #page8[class~='active'] {
-    /*transform: rotateY(90deg);*/
     z-index: 1;
 }
-
-
 #page8[class~='active'] p {
     opacity: 1;
 }
-
 @keyframes page8 {
     0% {
         opacity: 0;
@@ -52,9 +40,6 @@
     10% {
         opacity: 1;
     }
-    /*90%{*/
-        /*opacity: 1;*/
-    /*}*/
     100% {
         opacity: 1;
     }

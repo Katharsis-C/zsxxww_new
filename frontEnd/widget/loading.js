@@ -3,79 +3,83 @@ var img = [
     "qitou_m", "baoxiudan_m", "film_m", "film_m", "film_m", "film_m", "film_m", "bridge_m", "metting1_m", "metting2_m", "metting3_m", "metting4_m",
     "film_m", "film_m", "film_m", "film3_m", "film3_m", "film3_m", "film3_m", "film3_m", "film3_m", "film3_m", "tree_m", "lake_m", "words_m"
 ];
-var cacheimg = ["", "camera_m", "train_m", "film_m", "film2_m", "map_m", "sky_m", "stair_m", "fengxiang_m", "cat_m", "xiangshan_m",
-    "qitou_m", "baoxiudan_m", "bridge_m", "film3_m", "tree_m", "lake_m", "words_m"
-];
-// var playflage = 1;
-// var play = document.getElementById("music");
-// var animation = new Animation();
 
+var loaded = 0,   // 当前已加载的资源数
+    loadSum = 38, //  需要加载的资源的总数
+    isIOS = false;  //  判断是否是ios系统
 
-var loaded = 0;
-var loadSum = 38;
-var isIOS = false;
+//  将img的src属性添加
 function add(imgages) {
     var i = 1;
     imgages.each(function () {
         $(this).prop('src', 'images/' + img[i] + '.png');
         i++;
     });
-    // if (navigator.userAgent.match(/msie/i) ||
-    //     navigator.userAgent.match(/trident/i) ||
-    //     (navigator.userAgent.indexOf('Safari') != -1 &&
-    //     navigator.userAgent.indexOf('Chrome') == -1)||
-    //     /Edge\/\d./i.test(navigator.userAgent)) {
-    //     music.attr('src', '/resource/music.mp3');
-    // } else {
-    //     music.attr('src', '/resource/music.ogg');
-    // }
 }
+
+//  绑定加载函数
 function bindLoad(images, music, animation) {
-    if( isIOS == true)  {
+
+    // 对IOS系统不能自动加载音乐的修复
+    if (isIOS == true) {
         loadSum = 37;
     }
+
+    //  为每一个img标签绑定加载事件
     images.each(function () {
         $(this).on('load', function () {
             loaded++;
+
+            //   当加载的资源足够时进入ppt
             if (loaded >= loadSum) {
                 if (animation.status == false) {
                     animation.pptStart();
                 }
-                // music[0].play();
             }
         });
     });
+
+    //  为音乐绑定加载事件
     music.on('canplay', function () {
         loaded++;
+
+        //   当加载的资源足够时进入ppt
         if (loaded >= loadSum) {
             if (animation.status == false) {
                 animation.pptStart();
             }
-            // this.play();
         }
     });
 }
 
 $(document).ready(function () {
-    if( /iPhone|iPod|/i.test(navigator.userAgent) ) {
+    //   判断是否是ios系统
+    if (/iPhone|iPod|/i.test(navigator.userAgent)) {
         isIOS = true;
     }
-    if( /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+
+    //   判断是不是手机端，不是就不给访问
+    if (/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         var images = $('.page img');
         var animation = new Animation();
         var music = $('#music');
-        var playflage = 1;
+
+        //   初始化页面，初始化完开始加载资源
         animation.pptInit();
         bindLoad(images, music, animation);
         add(images);
 
-        $('#tip2').one('click',function (e) {
+        //   tip2页面点击事件：使得音乐开始播放，ppt正式开始（增加tip2的目的是为了解决ios系统没法自动播放音乐的问题）
+        $('#tip2').one('click', function (e) {
             music[0].loop = true;
             music[0].play();
             $('#tip2').fadeOut();
             $("#console").fadeIn();
             $('#page1').css('animation-play-state', 'running').addClass('active');
         });
+
+        var playflage = 1;  // 音乐控件的需要
+        //  音乐控件的点击事件
         $("#console").click(function () {
             if (playflage === 1) {
                 music[0].pause();
@@ -88,6 +92,7 @@ $(document).ready(function () {
             playflage = ~playflage;
         });
 
+        //  当资源加载超过20s的时候，就显示提示资源未加载完全可能影响观看的tip，然后进入ppt
         setTimeout(function () {
             if (animation.status == false) {
                 $("#loading").hide();
@@ -97,69 +102,9 @@ $(document).ready(function () {
                 }, 2000);
             }
         }, 20000);
-    }else {
+
+    } else {
         $("#loading").hide();
         $('#tip1').fadeIn();
     }
 });
-
-// function add(i) {
-//     if (i != 21) {
-//         if (i < 35) {
-//             $('#page' + i + '>*>img').attr('src', 'images/' + img[i] + '.png');
-//             i++;
-//             add(i);
-//         }
-//         else {
-//             var loading = $("#loading");
-//             var music;
-//             if (navigator.userAgent.match("Safari") || navigator.userAgent.match("MSIE")) {
-//                 music = 'music.mp3';
-//             }
-//             else {
-//                 music = 'music.ogg';
-//             }
-//             play.setAttribute('src', 'resource/' + music);
-//             play.addEventListener("canplay", function () {
-//                 loading.hide();
-//                 animation.pptInit();
-//                 animation.pptStart();
-//                 play.play();
-//             });
-//         }
-//     }
-//     else {
-//         i++;
-//         add(i);
-//     }
-// }
-//
-// function othercache(i) {
-//     $.get('images/metting' + (i + 1) + '.png', function () {
-//         $('#page21 >*>img').eq(i).attr('src', 'images/' + img[21][i] + '.png');
-//         i++;
-//         if (i < 4) {
-//             othercache(i);
-//         }
-//         else {
-//             add(1);
-//         }
-//     })
-// }
-//
-// function Cache(i) {
-//     $.get('images/' + cacheimg[i] + '.png', function () {
-//         i++;
-//         if (i < 18) {
-//             Cache(i);
-//         }
-//         else {
-//             othercache(0);
-//         }
-//     })
-// }
-//
-//
-// Cache(1);
-//
-//

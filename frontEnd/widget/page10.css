@@ -1,6 +1,3 @@
-#page10{
-    z-index: 10;
-}
 
 #page10 .word {
     position: absolute;
@@ -27,32 +24,24 @@
     writing-mode: vertical-lr;
 }
 
+/*   page10的动画效果   */
 #page10 {
-    /*transform-origin:left center;*/
-    /*transition: transform 1s ease-in 7s;*/
     animation: page10 5.5s linear;
     animation-fill-mode: forwards;
 }
-
 #page10 p {
     opacity: 0;
     transition: opacity 1.5s ease 1s;
 }
-
 #page10 p:last-child{
     transition: opacity 1.5s ease 2s;
 }
-
 #page10[class~='active'] {
-    /*transform: rotateY(90deg);*/
     z-index: 1;
 }
-
-
 #page10[class~='active'] p {
     opacity: 1;
 }
-
 @keyframes page10 {
     0% {
         opacity: 0;
@@ -60,9 +49,6 @@
     10% {
         opacity: 1;
     }
-    /*90%{*/
-        /*opacity: 1;*/
-    /*}*/
     100% {
         opacity: 1;
     }

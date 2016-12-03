@@ -58,24 +58,17 @@ h6{
     background-color: #1e1e1e;
 }
 
+/*   对word类的初始设置   */
 .page .word{
     padding: 20px 15px 0 20px;
 }
-
 @media (min-width: 370px) {
     .page .word{
         padding: 10px 15px 0 20px;
     }
 }
 
-.full-img{
-
-}
-
-.full-img img{
-    /*width: 100%;*/
-}
-
+/*  middle-img的实现   */
 .middle-img{
     position: fixed;
     top:50%;
@@ -83,27 +76,23 @@ h6{
     transform: translate(-50%,-50%);
     width: 100%;
 }
-
 .middle-img img{
     width: 100%;
 }
 
-
+/*  top-img和bottom-img的实现   */
 .top-img img{
     width: 100%;
     max-height: 590px;
 }
-
 .bottom-img{
     position: absolute;
     bottom: 0;
 }
-
 .bottom-img img{
     width: 100%;
     max-height: 500px;
 }
-
 @media (max-height: 620px) {
     .top-img img{
         max-height: 300px;
@@ -113,15 +102,14 @@ h6{
     }
 }
 
+/*  inline的p的实现  */
 .inline-p{
     display: block;
     margin-bottom: 15px;
 }
-
 .inline-p p{
     display: inline-block;
 }
-
 .inline-p p:first-child{
     float: left;
 
@@ -130,63 +118,61 @@ h6{
 
     font-size: 30px;
 }
-
 .inline-p p:last-child{
     width: 68%;
 }
 
-/*临时*/
-#test .page{
+/*  对页面的page类及里面的img进行一些的设置  */
+#body .page{
     z-index: 0;
     animation-play-state: paused;
     opacity: 0;
 }
-
-#test .page img{
+#body .page img{
     opacity: 0;
 }
-
-#test .page[class~='active'] img{
+#body .page[class~='active'] img{
     opacity: 1;
 }
 
-.top{
-    top:-100%;
-}
-
+/*  三个tip的样式  */
 #tip{
     position: fixed;
-    display: none;
-    text-align: center;
     top:50%;
     left:50%;
-    transform: translate(-50%,-50%);
 
+    display: none;
+
+    text-align: center;
+
+    transform: translate(-50%,-50%);
     z-index: 9997;
 }
-
 #tip1{
     position: fixed;
-    display: none;
-    text-align: center;
     top:50%;
     left:50%;
-    transform: translate(-50%,-50%);
 
+    display: none;
+
+    text-align: center;
+
+    transform: translate(-50%,-50%);
     z-index: 9998;
 }
-
 #tip2{
     position: fixed;
-    display: none;
-    text-align: center;
     top:50%;
     left:50%;
-    padding-top: 50%;
+
+    display: none;
     height: 100%;
     width: 100%;
-    transform: translate(-50%,-50%);
+    padding-top: 50%;
 
+    text-align: center;
+
+    transform: translate(-50%,-50%);
     z-index: 9999;
 }
 

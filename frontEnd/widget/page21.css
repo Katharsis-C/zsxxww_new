@@ -1,6 +1,3 @@
-#page21{
-    z-index: 21;
-}
 
 #page21 .photo-group{
     width: 90%;
@@ -12,31 +9,24 @@
     width: 49%;
 }
 
+/*    page21的动画效果    */
 #page21 {
-    /*transform-origin:left center;*/
-    /*transition: transform 1s ease-in 8s;*/
     animation: page21 6.5s linear;
     animation-fill-mode: forwards;
 }
-
 #page21 p {
     opacity: 0;
     transition: opacity 1.5s ease 1.5s;
 }
-
 #page21 p:last-child{
     transition: opacity 1.5s ease 3s;
 }
-
 #page21[class~='active'] {
-    /*transform: rotateY(90deg);*/
     z-index: 1;
 }
-
 #page21[class~='active'] p {
     opacity: 1;
 }
-
 @keyframes page21 {
     0% {
         opacity: 0;

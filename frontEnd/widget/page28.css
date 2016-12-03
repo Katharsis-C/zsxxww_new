@@ -1,41 +1,35 @@
-#page28{
-    z-index: 28;
-}
 
 #page28 .word{
     position: fixed;
-    width: 100%;
     top:50%;
     left: 50%;
+
+    width: 100%;
+
     transform: translate(-50%,-50%);
 }
 
 #page28 p{
-    text-align: right;
     margin-right: 50px;
+
+    text-align: right;
 }
 
+/*    page28的动画效果    */
 #page28 {
-    /*transform-origin:left center;*/
-    /*transition: transform 1s ease-in 4s;*/
     animation: page28 4s linear;
     animation-fill-mode: forwards;
 }
-
 #page28 p {
     opacity: 0;
     transition: opacity 1s ease 2s;
 }
-
 #page28[class~='active'] {
-    /*transform: rotateY(90deg);*/
     z-index: 1;
 }
-
 #page28[class~='active'] p {
     opacity: 1;
 }
-
 @keyframes page28 {
     0% {
         opacity: 0;
