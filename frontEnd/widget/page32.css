@@ -30,21 +30,21 @@
 #page32 {
     /*transform-origin:left center;*/
     /*transition: transform 1s ease-in 9s;*/
-    animation: page32 11s linear;
+    animation: page32 8.5s linear;
     animation-fill-mode: forwards;
 }
 
 #page32 p {
     opacity: 0;
-    transition: opacity 1.5s ease 4.5s;
+    transition: opacity 1.5s ease 4s;
 }
 
 #page32 p:first-child{
-    transition: opacity 2s ease 2s;
+    transition: opacity 2s ease 1.5s;
 }
 
 #page32 p:last-child{
-    transition: opacity 1.5s ease 6s;
+    transition: opacity 1.5s ease 5.5s;
 }
 
 #page32[class~='active'] {

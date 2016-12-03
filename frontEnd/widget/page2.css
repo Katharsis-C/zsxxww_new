@@ -25,22 +25,22 @@
 #page2 {
     /*transform-origin:left center;*/
     /*transition: transform 1s ease-in 7.5s;*/
-    animation: page2 9.5s linear;
+    animation: page2 7s linear;
     animation-fill-mode: forwards;
 }
 
 #page2 p{
     opacity: 0;
-    transition: opacity 2s ease 3s;
+    transition: opacity 1.5s ease 2.5s;
 }
 
 #page2 p:last-child{
-    transition: opacity 2s ease 4.5s;
+    transition: opacity 1.5s ease 4s;
 }
 
 #page2 h2{
     opacity: 0;
-    transition: opacity 2s ease 1.5s;
+    transition: opacity 1.5s ease 1s;
 }
 
 #page2[class~='active']{

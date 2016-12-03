@@ -14,21 +14,21 @@ var cacheimg = ["", "camera_m", "train_m", "film_m", "film2_m", "map_m", "sky_m"
 var loaded = 0;
 var loadSum = 38;
 var isIOS = false;
-function add(imgages, music) {
+function add(imgages) {
     var i = 1;
     imgages.each(function () {
         $(this).prop('src', 'images/' + img[i] + '.png');
         i++;
     });
-    if (navigator.userAgent.match(/msie/i) ||
-        navigator.userAgent.match(/trident/i) ||
-        (navigator.userAgent.indexOf('Safari') != -1 &&
-        navigator.userAgent.indexOf('Chrome') == -1)||
-        /Edge\/\d./i.test(navigator.userAgent)) {
-        music.attr('src', '/resource/music.mp3');
-    } else {
-        music.attr('src', '/resource/music.ogg');
-    }
+    // if (navigator.userAgent.match(/msie/i) ||
+    //     navigator.userAgent.match(/trident/i) ||
+    //     (navigator.userAgent.indexOf('Safari') != -1 &&
+    //     navigator.userAgent.indexOf('Chrome') == -1)||
+    //     /Edge\/\d./i.test(navigator.userAgent)) {
+    //     music.attr('src', '/resource/music.mp3');
+    // } else {
+    //     music.attr('src', '/resource/music.ogg');
+    // }
 }
 function bindLoad(images, music, animation) {
     if( isIOS == true)  {
@@ -67,7 +67,7 @@ $(document).ready(function () {
         var playflage = 1;
         animation.pptInit();
         bindLoad(images, music, animation);
-        add(images, music);
+        add(images);
 
         $('#tip2').one('click',function (e) {
             music[0].loop = true;

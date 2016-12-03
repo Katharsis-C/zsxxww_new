@@ -19,12 +19,12 @@
 
 #page34 img{
     opacity: 0;
-    transition: opacity 2s ease 2s;
+    transition: opacity 2s ease 1s;
 }
 
 #page34 p {
     opacity: 0;
-    transition: opacity 2s ease 3s;
+    transition: opacity 2s ease 2.5s;
 }
 
 #page34[class~='active'] {

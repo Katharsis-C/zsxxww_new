@@ -10,17 +10,17 @@
 #page18 {
     /*transform-origin:left center;*/
     /*transition: transform 1s ease-in 8s;*/
-    animation: page18 8s linear;
+    animation: page18 6.5s linear;
     animation-fill-mode: forwards;
 }
 
 #page18 p {
     opacity: 0;
-    transition: opacity 2s ease 2s;
+    transition: opacity 1.5s ease 1.5s;
 }
 
 #page18 p:last-child{
-    transition: opacity 2s ease 4s;
+    transition: opacity 1.5s ease 3s;
 }
 
 #page18[class~='active'] {

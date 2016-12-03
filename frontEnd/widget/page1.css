@@ -15,18 +15,18 @@
 #page1 {
     /*transform-origin:left center;*/
     /*transition: transform 1s ease-in 6.5s;*/
-    animation: page1 8.5s linear;
+    animation: page1 6s linear;
     animation-fill-mode: forwards;
 }
 
 #page1 p {
     opacity: 0;
-    transition: opacity 1.5s ease 2.5s;
+    transition: opacity 2s ease 2.5s;
 }
 
 #page1 h2 {
     opacity: 0;
-    transition: opacity 1.5s ease 1s;
+    transition: opacity 2s ease 1s;
 }
 
 #page1[class~='active'] {

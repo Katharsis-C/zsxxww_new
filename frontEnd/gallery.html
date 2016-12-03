@@ -65,9 +65,12 @@
     <p>tip:右上角有音乐的开关按钮</p>
 </div>
 <div id="console">
-    <button type="button" ><img src="images/pause.png"></button>
+    <button type="button"><img src="images/pause.png"></button>
 </div>
-<audio  loop="loop" id="music"> </audio>
+<audio loop="loop" preload="auto" id="music">
+    <source src="resource/music.mp3" type="audio/mpeg">
+    <source src="resource/music.ogg" type="audio/ogg">
+</audio>
 <div class="body" id="loading">
     <div class="wrap">
         <div class="bg">

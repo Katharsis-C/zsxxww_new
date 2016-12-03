@@ -26,7 +26,7 @@
 #page12 {
     /*transform-origin:left center;*/
     /*transition: transform 1s ease-in 8s;*/
-    animation: page12 10s linear;
+    animation: page12 7.5s linear;
     animation-fill-mode: forwards;
 }
 

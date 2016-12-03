@@ -151,6 +151,7 @@ fis.match('widget/loading.js',{
     requires:['bower_components/jquery/dist/jquery.min.js']
 });
 fis.match('resource/**',{
+    url:'$0',
     release:'public/$0'
 });
 fis.match('widget/autoplay.js',{

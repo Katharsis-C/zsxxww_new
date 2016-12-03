@@ -11,7 +11,7 @@
 #page16 {
     /*transform-origin:left center;*/
     /*transition: transform 1s ease-in 8s;*/
-    animation: page16 8s linear;
+    animation: page16 8.5s linear;
     animation-fill-mode: forwards;
 }
 
@@ -25,7 +25,7 @@
 }
 
 #page16 p:last-child{
-    transition: opacity 2s ease 6s;
+    transition: opacity 2s ease 5s;
 }
 
 #page16[class~='active'] {

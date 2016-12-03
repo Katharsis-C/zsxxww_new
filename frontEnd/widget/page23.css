@@ -16,15 +16,15 @@
 
 #page23 p {
     opacity: 0;
-    transition: opacity 1.5s ease 3.5s;
+    transition: opacity 1.5s ease 3s;
 }
 
 #page23 p:first-child{
-    transition: opacity 1.5s ease 2s;
+    transition: opacity 1.5s ease 1.5s;
 }
 
 #page23 p:last-child{
-    transition: opacity 1.5s ease 5s;
+    transition: opacity 1.5s ease 4.5s;
 }
 
 #page23[class~='active'] {

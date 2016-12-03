@@ -37,7 +37,7 @@
 #page9 {
     /*transform-origin:left center;*/
     /*transition: transform 1s ease-in 14s;*/
-    animation: page9 16s linear;
+    animation: page9 12s linear;
     animation-fill-mode: forwards;
 }
 
@@ -50,19 +50,19 @@
 }
 
 #page9 p:nth-last-child(2) {
-    transition: opacity 1.5s ease 2.5s;
+    transition: opacity 2s ease 2.5s;
 }
 
 #page9 p:nth-last-child(3) {
-    transition: opacity 2s ease 5s;
+    transition: opacity 2s ease 3.5s;
 }
 
 #page9 p:nth-last-child(4) {
-    transition: opacity 2s ease 7s;
+    transition: opacity 2s ease 5.5s;
 }
 
 #page9 p:nth-last-child(5) {
-    transition: opacity 2s ease 9s;
+    transition: opacity 2s ease 7.5s;
 }
 
 

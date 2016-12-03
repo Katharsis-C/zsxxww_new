@@ -30,25 +30,25 @@
 #page14 {
     /*transform-origin:left center;*/
     /*transition: transform 1s ease-in 11s;*/
-    animation: page14 13s linear;
+    animation: page14 9s linear;
     animation-fill-mode: forwards;
 }
 
 #page14 p {
     opacity: 0;
-    transition: opacity 2s ease 7.5s;
+    transition: opacity 1.5s ease 6s;
 }
 
 #page14 p:nth-child(2){
-    transition: opacity 2s ease 5.5s;
+    transition: opacity 1.5s ease 4.5s;
 }
 
 #page14 p:nth-child(3){
-    transition: opacity 2s ease 3.5s;
+    transition: opacity 1.5s ease 3s;
 }
 
 #page14 p:nth-child(4){
-    transition: opacity 2s ease 2s;
+    transition: opacity 1.5s ease 1.5s;
 }
 
 #page14[class~='active'] {

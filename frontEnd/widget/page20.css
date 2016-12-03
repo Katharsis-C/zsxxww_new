@@ -18,17 +18,17 @@
 #page20 {
     /*transform-origin:left center;*/
     /*transition: transform 1s ease-in 8s;*/
-    animation: page20 10s linear;
+    animation: page20 7s linear;
     animation-fill-mode: forwards;
 }
 
 #page20 p {
     opacity: 0;
-    transition: opacity 2s ease 2s;
+    transition: opacity 1.5s ease 2s;
 }
 
 #page20 p:last-child{
-    transition: opacity 2s ease 4s;
+    transition: opacity 1.5s ease 3.5s;
 }
 
 

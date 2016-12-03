@@ -23,7 +23,7 @@
 #page7 {
     /*transform-origin:left center;*/
     /*transition: transform 1s ease-in 7s;*/
-    animation: page7 9s linear;
+    animation: page7 6.5s linear;
     animation-fill-mode: forwards;
 }
 

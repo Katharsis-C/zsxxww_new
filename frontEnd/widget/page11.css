@@ -30,7 +30,7 @@
 #page11 {
     /*transform-origin:left center;*/
     /*transition: transform 1s ease-in 5s;*/
-    animation: page11 7s linear;
+    animation: page11 6s linear;
     animation-fill-mode: forwards;
 }
 

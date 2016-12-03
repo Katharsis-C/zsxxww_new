@@ -23,22 +23,22 @@
 #page6 {
     /*transform-origin:left center;*/
     /*transition: transform 1s ease-in 8s;*/
-    animation: page6 10s linear;
+    animation: page6 7s linear;
     animation-fill-mode: forwards;
 }
 
 #page6 p {
     opacity: 0;
-    transition: opacity 1.5s ease 4s;
+    transition: opacity 1.5s ease 3s;
 }
 
 #page6 p:last-child{
-    transition: opacity 2s ease 5s;
+    transition: opacity 1.5s ease 4.5s;
 }
 
 #page6 h2 {
     opacity: 0;
-    transition: opacity 2s ease 2s;
+    transition: opacity 1.5s ease 1.5s;
 }
 
 #page6[class~='active'] {
