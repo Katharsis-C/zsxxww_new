@@ -50,3 +50,15 @@
         min-height: 42px;
     }
 }
+
+@media (max-width: 768px) {
+    .repair_nav .row .col-xs-6 {
+        font-size: 90%;
+    }
+    .repair_nav i{font-size:75px}
+}
+
+@media (max-width: 406px) {
+    .rota .table { font-size: 94%;}
+    .repair_nav i{font-size:50px}
+}
